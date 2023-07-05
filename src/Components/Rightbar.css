@@ -1,0 +1,30 @@
+.Rightbar {
+   
+  }
+  
+  .ChooseCountry select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    margin-bottom: 16px;
+  }
+  
+  .CountryDetails img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .CountryDetails img.CoatOfArms {
+    width: 80px; 
+    height: auto;
+  }
+
+  .CountryDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
