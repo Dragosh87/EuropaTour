@@ -5,7 +5,7 @@ function Rightbar() {
   return (
     <div className="Rightbar" style={{ flex: '0 0 20%', backgroundColor: 'lightyellow' }}>
       <p>Rightbar</p>
-   
+      <p>Salut</p>
     </div>
     
 
