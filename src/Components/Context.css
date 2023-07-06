@@ -17,9 +17,23 @@
 
 @font-face {
     font-family: fontText;
-    src: url(shoftime.ttf);
+    src: url(Fragmentcore.ttf)
 }
-.hello{
+
+.paragraf{
     font-family: fontText;
-    font-size: 50px;
+    font-size: 25px;
+    list-style-type: none;
+    width: 55%;
+}
+
+.paragraf2 {
+    font-family: fontText;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.CentralContext{
+    display: flex;
+    justify-content: space-between;
 }

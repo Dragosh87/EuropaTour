@@ -53,7 +53,7 @@ function Rightbar() {
   };
 
   return (
-    <div className="Rightbar" style={{ flex: '0 0 20%',  }}>
+    <div className="Rightbar" style={{ flex: '0 0 20%'  }}>
       <h3>Explorează țările Europei și descoperă informații interesante</h3>
 
       <div className="ChooseCountry">

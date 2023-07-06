@@ -1,0 +1,40 @@
+.nav_bar{
+    background-color: #f6ebe5;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover{
+    background-color: #bf9d83;
+    border-radius: 0.5rem;
+}
+
+@font-face {
+    font-family: textFont;
+    src: url(Fragmentcore.ttf);
+}
+
+@font-face {
+    font-family: header;
+    src: url(forever.ttf);
+}
+
+.header{
+    font-family: header;
+    font-size: 70px;
+    text-align: center;
+}
+
+ul li {
+    font-family: textFont;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+li a {
+    color: black;
+}
+
+
+
