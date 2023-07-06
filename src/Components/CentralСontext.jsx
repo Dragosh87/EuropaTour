@@ -20,16 +20,17 @@ function CentralContext() {
       <ul className='paragraf2'>
         <li>
         Cu toate acestea, dacă mergi cu rucsacul prin Europa, cel mai bun moment pentru a călători în regiune 
-          este în extrasezon, din octombrie până în aprilie. Veți avea mai mult noroc să găsiți zboruri ieftine 
-          și hotelurile își reduc prețurile.
+          este în extrasezon, din octombrie până în aprilie. Veti avea mai mult noroc să găsiti zboruri ieftine 
+          și hotelurile își reduc preturile.
         </li>
         <li>
-        Dar, în funcție de destinație, iarna poate fi o perioadă aglomerată a anului pentru cei care plănuiesc 
-          o vacanță la schi sau care doresc să experimenteze piețele europene de Crăciun.
+        Dar, în functie de destinatie, iarna poate fi o perioadă aglomerată a anului pentru cei care plănuiesc 
+          o vacantă la schi sau care doresc să experimenteze pietele europene de Crăciun.
         </li>
       </ul>
+      <img className='image2' src='https://img.freepik.com/free-photo/view-travel-items-assortment-still-life_23-2149617645.jpg'/>
       <footer className='footer'>
-        <img src='https://theblondeabroad.com/wp-content/uploads/2018/07/Footer-Manifesto.png'/>
+        <img className='imgFooter' src='https://theblondeabroad.com/wp-content/uploads/2018/07/Footer-Manifesto.png'/>
       </footer>
     </div>
   );
