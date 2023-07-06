@@ -4,6 +4,11 @@
     justify-content: center;
 }
 
+li:hover{
+    background-color: #bf9d83;
+    border-radius: 0.5rem;
+}
+
 @font-face {
     font-family: textFont;
     src: url(shoftime.ttf);
@@ -11,12 +16,13 @@
 
 @font-face {
     font-family: header;
-    src: url(handmade.ttf);
+    src: url(forever.ttf);
 }
 
 .header{
     font-family: header;
-    font-size: 50px;
+    font-size: 70px;
+    text-align: center;
 }
 
 ul li {
@@ -24,6 +30,10 @@ ul li {
     list-style-type: none;
     display: inline-block;
     padding: 1rem;
+}
+
+li a {
+    color: black;
 }
 
 

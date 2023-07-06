@@ -7,8 +7,8 @@ function Navbar() {
       <nav className="nav_bar">
         <ul>
           <li>DESTINATIONS</li>
-          <li>ABOUT US</li>
-          <li>CONTACT</li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
       
