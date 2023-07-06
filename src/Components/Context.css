@@ -14,11 +14,11 @@
     font-family: Title;
     src: url(handmade.ttf);
 }
-
+/* 
 @font-face {
     font-family: fontText;
     src: url(Fragmentcore.ttf)
-}
+} */
 
 .paragraf{
     font-family: fontText;
