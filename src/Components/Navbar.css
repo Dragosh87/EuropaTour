@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-li:hover{
+.item:hover{
     background-color: #bf9d83;
     border-radius: 0.5rem;
 }
@@ -25,16 +25,35 @@ li:hover{
     text-align: center;
 }
 
-ul li {
+.item{
     font-family: textFont;
     list-style-type: none;
     display: inline-block;
     padding: 1rem;
 }
 
-li a {
+.item, a {
     color: black;
 }
+
+a{
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+  
+  .item:hover .dropdown {
+    display: block;
+  }
+  
+  
 
 
 
