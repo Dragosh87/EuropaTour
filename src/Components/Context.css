@@ -2,7 +2,7 @@
     width: 50%;
     height: 70%;
     display: flex;
-    justify-content: start;
+    /* justify-content: start;  Da ceva probleme la compilare, lam comentat, Dragosh */
 }
 
 @font-face {
