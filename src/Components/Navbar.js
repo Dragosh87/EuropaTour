@@ -3,9 +3,18 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <div className="Navbar" style={{ flex: '0 0 30%', backgroundColor: 'lightblue' }}>
-      <p1>Navbar</p1>
-      <p>Andreea</p>
+    <div className="Navbar" style={{ flex: '0 0 30%', backgroundColor: 'white' }}>
+      <nav className="nav_bar">
+        <ul>
+          <li>DESTINATIONS</li>
+          <li>ABOUT US</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+      
+      <h1 className='header'>Europe Travel Guide</h1>
+      <hr />
+
     </div>
   );
 }
