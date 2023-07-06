@@ -1,30 +1,41 @@
 .Rightbar {
-   
-  }
-  
-  .ChooseCountry select {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f2f2f2;
-    margin-bottom: 16px;
-  }
-  
-  .CountryDetails img {
-    width: 100px; 
-    height: auto;
-    margin-bottom: 8px;
-  }
-  
-  .CountryDetails img.CoatOfArms {
-    width: 80px; 
-    height: auto;
-  }
+  background-color: #fff;
+  margin: 5px;
+}
 
-  .CountryDetails {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.ChooseCountry select {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid black;
+  margin: 2px;
+  border-radius: 4px;
+
+}
+
+.CountryDetails img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.CountryDetails img.CoatOfArms {
+  width: 60px;
+  height: auto;
+}
+
+.CountryDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
