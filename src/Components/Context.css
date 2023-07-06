@@ -1,0 +1,15 @@
+.image{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: start;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(forever.ttf);
+}
+
+.hello{
+    font-family: myFont;
+}
