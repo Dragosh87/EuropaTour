@@ -3,6 +3,9 @@ import './Navbar.css';
 
 function Navbar() {
 
+  const handleOnClick = () => {
+    alert("Send us an email at the adress: eurotravelguide2023@gmail.com or call us: 07XX-XXX-XXX");
+  }
 
   return (
     <div className="Navbar" style={{ flex: '0 0 30%', backgroundColor: 'white' }}>
@@ -37,7 +40,7 @@ function Navbar() {
       </ul>
     </li>
     <li className="item"><a href="#">ABOUT US</a></li>
-    <li className="item"><a href="#">CONTACT</a></li>
+    <li className="item"><a href="#" onClick={handleOnClick}>CONTACT</a></li>
   </ul>
 </nav>
 
@@ -47,5 +50,7 @@ function Navbar() {
     </div>
   );
 }
+
+
 
 export default Navbar;
