@@ -14,11 +14,11 @@
     font-family: Title;
     src: url(handmade.ttf);
 }
-/* 
+
 @font-face {
     font-family: fontText;
     src: url(Fragmentcore.ttf)
-} */
+}
 
 .paragraf{
     font-family: fontText;
@@ -36,4 +36,12 @@
 .CentralContext{
     display: flex;
     justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 20%;
+    width: 20%;
 }

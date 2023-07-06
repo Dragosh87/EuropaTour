@@ -28,6 +28,9 @@ function CentralContext() {
           o vacanță la schi sau care doresc să experimenteze piețele europene de Crăciun.
         </li>
       </ul>
+      <footer className='footer'>
+        <img src='https://theblondeabroad.com/wp-content/uploads/2018/07/Footer-Manifesto.png'/>
+      </footer>
     </div>
   );
 }
