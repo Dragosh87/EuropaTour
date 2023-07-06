@@ -6,10 +6,20 @@
 }
 
 @font-face {
-    font-family: myFont;
+    font-family: subtitle;
     src: url(forever.ttf);
 }
 
+@font-face {
+    font-family: Title;
+    src: url(handmade.ttf);
+}
+
+@font-face {
+    font-family: fontText;
+    src: url(shoftime.ttf);
+}
 .hello{
-    font-family: myFont;
+    font-family: fontText;
+    font-size: 50px;
 }
