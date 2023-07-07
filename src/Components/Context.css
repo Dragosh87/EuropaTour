@@ -54,5 +54,7 @@
 
 .image2 {
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
 }
