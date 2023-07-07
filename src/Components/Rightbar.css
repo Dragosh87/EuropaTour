@@ -1,6 +1,6 @@
 .Rightbar {
   background-color: #fff;
-  margin: 5px;
+ 
 }
 
 .ChooseCountry select {
@@ -19,6 +19,16 @@
   margin-bottom: 5px;
   padding: 10px;
 }
+h3 {
+  /* background-color: #f6ebe5; */
+  color: black;
+  font-family: textFont;
+  margin: 1px;
+  padding: 0;
+  /* border-radius: 5px; */
+
+}
+
 
 h4 {
   display: block;
@@ -27,6 +37,11 @@ h4 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  background-color: #f6ebe5;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-family: textFont;
 }
 
 .CountryDetails img.CoatOfArms {
@@ -38,4 +53,13 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Geobutton {
+  background-color: #f6ebe5;
+  color: #f6ebe5;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Alte stiluri personalizate aici */
 }

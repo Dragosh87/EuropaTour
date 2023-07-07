@@ -11,7 +11,7 @@
 
 
 //   );
-// }
+// }google-maps-button 
 
 // export default Rightbar;
 import React, { useState, useEffect } from 'react';
@@ -85,12 +85,15 @@ function Rightbar() {
           <p>{selectedCountry.capital[0]}</p>
           <h4>Populație</h4>
           <p>{selectedCountry.population}</p>
-
+            <div className='Geobutton'>
           {showGeolocation && (
             <button onClick={handleOpenGoogleMaps}>Open Google Maps</button>
+            
           )}
+          </div>
         </div>
       )}
+      <img src="https://cdn.pixabay.com/animation/2023/04/27/02/38/02-38-04-740_512.gif" alt="GIF" style={{ width: '280px', height: 'auto', margin: "10px" }}/>
     </div>
   );
 }
