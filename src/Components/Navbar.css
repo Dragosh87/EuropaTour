@@ -21,7 +21,7 @@
 
 .header{
     font-family: header;
-    font-size: 70px;
+    font-size: 90px;
     text-align: center;
 }
 
@@ -48,6 +48,7 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     background-color: #f6ebe5;
+    border: 2px solid #e2bea2;
   }
   
   .item:hover .dropdown {
@@ -83,6 +84,7 @@ a{
     z-index: 1;
     list-style: none;
     background-color: #e2bea2;
+    border: 2px solid #e2bea2;
   }
   
   .item1:hover .dropdown1 {
@@ -99,7 +101,12 @@ a{
     text-decoration: none;
   }
   
-  
+  .title_of_page{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
 
 
 
