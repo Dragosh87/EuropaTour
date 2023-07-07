@@ -54,13 +54,28 @@
     width: auto;
 }
 
-.image2 {
+/* .image2 {
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;    
-}
+} */
 
-.img2 {
+.paragraf3 {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  .img2 {
     width: 400px;
-    height: 250px;
-}
+    height: auto; 
+    margin-right: 0; 
+  }
+  
+  .titlu1 {
+    font-family: fontText;
+    margin-left: 250px;
+  }
+
+
+  

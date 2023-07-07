@@ -28,9 +28,14 @@ function CentralContext() {
           o vacantă la schi sau care doresc să experimenteze pietele europene de Crăciun.
         </li>
       </ul>
+      <div className='paragraf3'>
+      <section className='titlu1'>
+      <h2>LA CE SĂ TE AȘTEPTI</h2>
+      </section>
       <section className='image2'>
       <img className='img2' src='https://img.freepik.com/free-photo/view-travel-items-assortment-still-life_23-2149617645.jpg'/>
       </section>
+      </div>
       <footer className='footer'>
         <img className='imgFooter' src='https://theblondeabroad.com/wp-content/uploads/2018/07/Footer-Manifesto.png'/>
       </footer>
