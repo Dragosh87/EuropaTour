@@ -25,12 +25,14 @@
     font-size: 25px;
     list-style-type: none;
     width: 55%;
+    padding: 1rem;
 }
 
 .paragraf2 {
     font-family: fontText;
     font-size: 25px;
     list-style-type: none;
+    padding: 1rem;
 }
 
 .CentralContext{
@@ -53,6 +55,12 @@
 }
 
 .image2 {
-    display: flex;
+    display:flex;
     justify-content: flex-end;
+    align-items: flex-end;    
+}
+
+.img2 {
+    width: 400px;
+    height: 250px;
 }
