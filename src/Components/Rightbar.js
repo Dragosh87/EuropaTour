@@ -26,7 +26,6 @@ function Rightbar() {
   const getYouTubeLink = (countryName) => {
       const links = {
       Romania: 'xcDRvhEW-7g',
-      Germany: 'xf0byg9qO6o',
       Serbia: 'hlBP5b06_Ok',
       Andorra: 'gFbQ7hXnIvo',
       Ukraine: 'Y0veGCmOul0',
@@ -111,6 +110,11 @@ function Rightbar() {
 
   return (
     <div className="Rightbar" style={{ flex: '0 0 20%' }}>
+      <img 
+        src="https://thumbs.gfycat.com/AgileAcceptableEchidna-size_restricted.gif"
+        alt="GIF"
+        style={{ width: '360px', height: 'auto', margin: '00px' }}
+      />
       <h3>Explorează țările Europei și descoperă informații interesante</h3>
 
       <div className="ChooseCountry">
@@ -145,7 +149,7 @@ function Rightbar() {
           <div className="Geobutton">
             {showGeolocation && (
               <>
-                <button onClick={handleOpenGoogleMaps}>Open Google Maps</button>
+                <button className="OpenMapsButton" onClick={handleOpenGoogleMaps}>Open Google Maps</button>
                 
                 <div className='youtube'>
                 {showYouTubePlayer && selectedCountry.youtubeLink && (
@@ -165,14 +169,12 @@ function Rightbar() {
           </div>
         </div>
       )}
-      <img
-        src="https://cdn.pixabay.com/animation/2023/04/27/02/38/02-38-04-740_512.gif"
-        alt="GIF"
-        style={{ width: '280px', height: 'auto', margin: '10px' }}
-      />
+      
+      
       
     </div>
   );
 }
 
 export default Rightbar;
+
