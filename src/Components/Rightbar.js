@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Rightbar.css';
+import Game from './Game';
 
 const API_EUR = 'https://restcountries.com/v3.1/region/europe';
 
@@ -169,12 +170,28 @@ function Rightbar() {
           </div>
         </div>
       )}
+      <hr className="separator" />
       
-      
-      
+      <div className="Game">
+        <h3>Joc: Alege capitala corectă 🎯</h3>
+        <Game />
+      </div>
+      <hr className="separator" />
     </div>
+    
+    
   );
 }
 
+
+
 export default Rightbar;
+
+
+
+
+
+
+
+
 
