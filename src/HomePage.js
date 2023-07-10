@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './Home.css';
 import Navbar from './Components/Navbar';
 import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
 
-function App() {
+
+function HomePage() {
   return (
     <div className="App" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <Navbar />
@@ -18,8 +19,7 @@ function App() {
   );
 }
 
-export default App;
-
+export default HomePage;
 
 // function App() {
 //   return (
