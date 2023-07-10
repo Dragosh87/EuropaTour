@@ -1,25 +1,53 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Leftbar from './Components/Leftbar';
+import Rightbar from './Components/Rightbar';
+import CentralContext from './Components/CentralСontext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <Navbar />
+      <div className="Content" style={{ flex: '1', display: 'flex' }}>
+        <Leftbar />
+        <CentralContext />
+        <Rightbar />
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
+// function App() {
+//   return (
+//     <div className="App" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+//       {/* Navbar */}
+//       <div className="Navbar" style={{ flex: '0 0 30%', backgroundColor: 'lightblue' }}>
+//         <Navbar />
+//       </div>
+
+//       {/* Content */}
+//       <div className="Content" style={{ flex: '1', display: 'flex' }}>
+//         {/* Leftbar */}
+//         <div className="Leftbar" style={{ flex: '0 0 20%', backgroundColor: 'lightgreen' }}>
+//           <Leftbar />
+//         </div>
+
+//         {/* CentralContent */}
+//         <div className="CentralContent" style={{ flex: '0 0 60%', backgroundColor: 'lightpink' }}>
+//           <CentralContext />
+//         </div>
+
+//         {/* RightBar */}
+//         <div className="Rightbar" style={{ flex: '0 0 20%', backgroundColor: 'lightyellow' }}>
+//           <Rightbar />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default App;
