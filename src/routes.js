@@ -1,5 +1,5 @@
 // import CentralContext from './Components/CentralContext';
-import AlbaniaPage from './Countries/AlbaniaPage';
+import AlbaniaPage from './AlbaniaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
 
