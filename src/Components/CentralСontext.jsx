@@ -7,38 +7,38 @@ function CentralContext() {
       <section className="CentralContext">
       <img className='image' src='https://www.tosomeplacenew.com/wp-content/uploads/2021/12/Getting-ready-for-Europe-1024x819.jpg'/>
       <ul className='paragraf'>
-        <li>Toată lumea visează să călătorească în Europa și există un motiv pentru asta.
-           Fie că faci prima ta excursie solo, faci rucsacul cu un buget redus, cauti o evadare elegantă sau vrei să 
-           explorezi noi orașe și culturi, Europa are ceva pentru toată lumea.
+        <li>Everyone dreams of traveling to Europe and there is a reason for that.
+           Whether you're taking your first solo trip, backpacking on a budget, looking for a stylish getaway, or want to 
+           explore new cities and cultures, Europe has something for everyone.
         </li>
         <li>
-        Sezonul turistic de vârf al Europei este vara! Din iunie până în august, călătorii din întreaga
-         lume se îngrămădesc în regiune pentru a se bucura de obiectivele turistice cu vreme frumoasă.
+        Europe's peak tourist season is summer! From June to August, travelers from all over
+         People flock to the region to enjoy the sights with beautiful weather.
         </li>
       </ul>
       </section>
       <ul className='paragraf2'>
         <li>
-        Cu toate acestea, dacă mergi cu rucsacul prin Europa, cel mai bun moment pentru a călători în regiune 
-          este în extrasezon, din octombrie până în aprilie. Veti avea mai mult noroc să găsiti zboruri ieftine 
-          și hotelurile își reduc preturile.
+        However, if you're backpacking around Europe, the best time to travel to the region 
+          It is in low season, from October to April. You will have better luck finding cheap flights 
+          Hotels are also cutting their prices.
         </li>
         <li>
-        Dar, în functie de destinatie, iarna poate fi o perioadă aglomerată a anului pentru cei care plănuiesc 
-          o vacantă la schi sau care doresc să experimenteze pietele europene de Crăciun.
+        But depending on the destination, winter can be a busy time of year for planners 
+          a skiing holiday or wanting to experience European Christmas markets.
         </li>
       </ul>
       <div className='paragraf3'>
       <section className='titlu1'>
-      <h2>LA CE SĂ TE AȘTEPTI</h2>
+      <h2>WHAT TO EXPECT</h2>
       </section>
       <section className='image2'>
       <img className='img2' src='https://img.freepik.com/free-photo/view-travel-items-assortment-still-life_23-2149617645.jpg'/>
       </section>
       </div>
-      <footer className='footer'>
+      {/* <footer className='footer'>
         <img className='imgFooter' src='https://theblondeabroad.com/wp-content/uploads/2018/07/Footer-Manifesto.png'/>
-      </footer>
+      </footer> */}
     </div>
   );
 }

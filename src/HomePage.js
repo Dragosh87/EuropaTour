@@ -4,6 +4,11 @@ import Navbar from './Components/Navbar';
 import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
+<<<<<<< HEAD
+import { ReviewBar } from './Components/barReview';
+=======
+import AlbaniaPage from './Components/AlbaniaPage';
+>>>>>>> 29cbdb985adaf8c03d969c0d9fd69c6dc01f355f
 
 
 function HomePage() {
@@ -14,6 +19,9 @@ function HomePage() {
         <Leftbar />
         <CentralContext />
         <Rightbar />
+      </div>
+      <div className='review'>
+      <ReviewBar />
       </div>
     </div>
   );
