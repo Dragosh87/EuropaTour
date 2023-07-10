@@ -1,0 +1,17 @@
+.review{
+    min-height: 100px;
+    min-width: 400px;
+    border: none;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: 400px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}

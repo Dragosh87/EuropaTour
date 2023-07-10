@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
+import { ReviewBar } from './Components/barReview';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Leftbar />
         <CentralContext />
         <Rightbar />
+      </div>
+      <div className='review'>
+      <ReviewBar />
       </div>
     </div>
   );
