@@ -13,28 +13,19 @@ function Navbar() {
     <li className="item">
       DESTINATIONS
       <ul className="dropdown">
-        <li className="dropdown_item">Albania</li>
-        <li className="dropdown_item">Andorra</li>
+        <li className="dropdown_item"><a href="#AlbaniaPage.js" target='_blank'>Albania</a></li>
         <li className="dropdown_item">Austria</li>
-        <li className="dropdown_item">Belarus</li>
-        <li className="dropdown_item">Belgium</li>
-        <li className="dropdown_item">Croatia</li>
-        <li className="dropdown_item">Cyprus</li>
-        <li className="dropdown_item">Czechia</li>
-        <li className="dropdown_item">Denmark</li>
-        <li className="dropdown_item">Estonia</li>
+        <li className="dropdown_item">Czech Republic</li>
         <li className="dropdown_item">France</li>
-        <li className="dropdown_item">Germany</li>
-        <li className="dropdown_item">Gibraltar</li>
         <li className="dropdown_item">Greece</li>
-        <li className="dropdown_item">Guernsay</li>
-        <li className="dropdown_item">Hungary</li>
         <li className="dropdown_item">Iceland</li>
-        <li className="dropdown_item">Irland</li>
         <li className="dropdown_item">Italy</li>
-        <li className="dropdown_item">Jersey</li>
+        <li className="dropdown_item">Malta</li>
+        <li className="dropdown_item">Romania</li>
+        <li className="dropdown_item">Spain</li>
       </ul>
     </li>
+    <li className="item">TRAVEL TIPS</li>
     <li className="item"><a href="#">ABOUT US</a></li>
     <li className="item1">
       <a href='mailto: eurotravelguide2023@gmail.com'>

@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
+import AlbaniaPage from './Components/AlbaniaPage';
 
 function App() {
   return (
