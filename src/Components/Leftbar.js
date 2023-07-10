@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import './Leftbar.css';
 import CountryDropdown from './weather/Country'
 import CityDropdown from './weather/City'
 import Weather from './weather/Weather' 
