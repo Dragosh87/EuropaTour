@@ -1,7 +1,7 @@
 .review{
     min-height: 100px;
     min-width: 400px;
-    border: none;
+    border: 2px solid #f6ebe5;
 }
 
 .container{
@@ -11,7 +11,9 @@
     width: 400px;
 }
 
-button{
+.submit-button{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 2px;
 }
