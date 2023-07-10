@@ -9,6 +9,9 @@ function Leftbar() {
   const [cityIsOpen, setCityIsOpen] = useState(false);
   const [country, setCountry] = useState('IT');
   const [city, setCity] = useState(City.getCitiesOfCountry(country).find(it => it.name === 'Rome'));
+  
+  const europeanCountries = Country.getAllCountries().filter(country => country.timezones.find(timezone => timezone.zoneName.includes('Europe')))
+  
   return (
     <div className="Leftbar " style={{ flex: '0 0 20%' }}>
 
@@ -17,7 +20,8 @@ function Leftbar() {
                     open={countryIsOpen}
                     onToggle={() => setCountryIsOpen(!countryIsOpen)}
                     onChange={setCountry}
-                    selectedValue={Country.getAllCountries().find(opt => opt.isoCode === country)}
+                    countries={europeanCountries}
+                    selectedValue={europeanCountries.find(opt => opt.isoCode === country)}
                 />
                 {country != null &&
                     <CityDropdown

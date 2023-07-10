@@ -2,7 +2,13 @@
     background-color: #f6ebe5;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+.Navbar{
+  text-align: center;
+}
+
 
 .item:hover, .item1:hover{
     background-color: #bf9d83;
