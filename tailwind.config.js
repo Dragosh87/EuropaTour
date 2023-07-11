@@ -1,4 +1,7 @@
+const withMT = require("@material-tailwind/react/utils/withMT");
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -16,6 +19,6 @@ module.exports = {
     'gray-light': '#d3dce6',
     'background': '#f6ebe5'
   },
-  plugins: [],
+  plugins: [('@tailwindcss/aspect-ratio')],
 }
 
