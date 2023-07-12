@@ -15,7 +15,7 @@
     border-radius: 0.5rem;
 }
 
-@font-face {
+/* @font-face {
     font-family: textFont;
     src: url(Fragmentcore.ttf);
 }
@@ -23,7 +23,7 @@
 @font-face {
     font-family: header;
     src: url(forever.ttf);
-}
+} */
 
 .header{
     font-family: header;

@@ -8,6 +8,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 40px;
+}
+
+.second_part{
+    border: 2px solid #f6ebe5;
+    background-color: #f6ebe5;
+    width: 1200px;
+    height: 400px;
+    margin-top: 30px;
 }
 
 .container_menu{
