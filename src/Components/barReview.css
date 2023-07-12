@@ -23,7 +23,8 @@ textarea:focus {
 
   .username {
     outline: none;
-    border: 2px solid #f6ebe5;
+    border: 2px solid #BF9270;
+    width: 434px; ;
     font-family: fontText;
   }
 
@@ -36,5 +37,5 @@ textarea:focus {
   .comment {
     display: inline-flex;
     justify-content: center;
-    border: 2px solid #f6ebe5;
+    border: 2px solid #BF9270;
   }
