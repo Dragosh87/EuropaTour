@@ -54,11 +54,9 @@
     width: auto;
 }
 
-/* .image2 {
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;    
-} */
+h2{
+    font-size: 35px;
+}
 
 .paragraf3 {
     display: flex;
@@ -76,6 +74,44 @@
     font-family: fontText;
     margin-left: 250px;
   }
+
+.europEst, .europNord, .europSud, .europWest {
+    font-family: fontText;
+    font-size: 25px;
+    border: 2px solid #BF9270;
+    border-radius: 15px;
+    width: 450px;
+    height: 400px;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.europSud {
+    margin-top: 0px;
+}
+
+.arrowEst, .arrowSud {
+    width: 350px;
+    height: 350px;
+    margin-top: 200px;
+}
+
+
+
+.est, .nord,.sud, .west {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.arrowNord, .arrowWest {
+    width: 450px;
+    height: 450px;
+    margin-top: 250px;
+}
+
+.arrowWest {
+    visibility:hidden;
+}
 
 
   
