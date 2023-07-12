@@ -5,6 +5,8 @@ import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
 import { ReviewBar } from './Components/barReview';
+import LoginForm from './LoginForm';
+import ModificariForm from './ModificariForm';
 
 
 function HomePage() {
@@ -19,6 +21,13 @@ function HomePage() {
       <div className='review'>
       <ReviewBar />
       </div>
+      <div>
+      <h1>Autentificare</h1>
+      <LoginForm />
+
+      <h1>Modificări în backend</h1>
+      <ModificariForm />
+    </div>
     </div>
   );
 }
