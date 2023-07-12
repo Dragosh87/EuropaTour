@@ -34,7 +34,7 @@ function AlbaniaPage() {
             <li className='item_city'>GJIROKASTER</li>
             <li className='item_city'>HIMARE</li>
             <li className='item_city'>KSAMIL</li>
-            <li className='item_city'>THETH</li>
+            <li className='item_city'>TIRANA</li>
           </ol>
 
           <svg width="335" height="32" viewBox="0 0 335 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,35 @@ function AlbaniaPage() {
           </div>
 
           <div className='second_part'>
-            
+            <section className='first_line'>
+              <div className='star'>
+            <svg width="110" height="99" viewBox="0 0 110 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_5_3)">
+<path d="M55 0L66.8992 34.5491H105.406L74.2534 55.9017L86.1526 90.4509L55 69.0983L23.8474 90.4509L35.7466 55.9017L4.59401 34.5491H43.1008L55 0Z" fill="#C69067"/>
+</g>
+<defs>
+<filter id="filter0_d_5_3" x="0.593994" y="0" width="108.812" height="98.4509" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5_3"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5_3" result="shape"/>
+</filter>
+</defs>
+</svg>
+      <h4>Best time to Travel</h4>
+      <p className='paragraf'>April to October is the best time to visit Albania!</p>
+      </div>
+           
+            <div className='money'>
+              <h1 className='dollar'>$</h1>
+              <h4>Currency</h4>
+              <p className='paragraf1'>The currency in Albania is Lekë. 1 USD is equivalent to 115 LEK!</p>
+            </div>
+            </section>
           </div>
       </div>
     </div>
