@@ -4,12 +4,11 @@
 
 @layer components {
   .title {
-    @apply flex justify-start pt-8 pb-3 mx-auto text-3xl font-bold text-orange-950 max-w-7xl sm:px-6 lg:px-8
+    @apply flex justify-start pt-8 pb-3 mx-auto text-3xl font-bold text-brown-600 max-w-7xl sm:px-6 lg:px-8
   }
   .para {
-    @apply flex justify-center pb-3 mx-auto font-sans text-xl text-orange-800  max-w-7xl sm:px-6 lg:px-8
+    @apply flex justify-center pb-3 mx-auto font-sans text-xl text-brown-400  max-w-7xl sm:px-6 lg:px-8
   }
-
 }
 
 body {

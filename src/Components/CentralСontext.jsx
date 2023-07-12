@@ -3,6 +3,7 @@ import './Context.css';
 
 function CentralContext() {
   return (
+    
     <div  style={{ flex: '0 0 60%', backgroundColor: '#f6ebe5' }}>
       <section className="CentralContext">
       <img className='image' src='https://www.tosomeplacenew.com/wp-content/uploads/2021/12/Getting-ready-for-Europe-1024x819.jpg'/>

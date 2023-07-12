@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
+import TravelTip from "./Components/tips/TravelTip";
 import "./TipsPage.css";
-import { Carousel } from "@material-tailwind/react";
+import { Fragment, useState } from "react";
+
 
 function showSection(sectionName) {
   document
@@ -112,12 +114,70 @@ const features = [
   },
 ];
 
+const travelTips = [
+  {
+    title: "Packing Tips and Hacks ",
+    content: "Master the art of efficient packing with these valuable tips and hacks. Learn how to maximize space, organize your belongings, and pack smart for your European adventures. Say goodbye to overpacking and hello to stress-free travel",
+    extraContent: "in progres !!!"
+  },
+  
+  {
+    title: "Must-Visit Hidden Gems ",
+    content: "Escape the crowds and discover Europe's hidden gems. From charming villages tucked away in picturesque landscapes to lesser-known cultural treasures, unveil the secrets of these off-the-beaten-path destinations for an unforgettable travel experience.",  
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Transportation Guides",
+    content: "Getting around Europe is a breeze with our comprehensive transportation guides. Whether you're hopping on trains, buses, or trams, we'll provide you with everything you need to know to navigate Europe's efficient transportation systems like a pro.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Cultural Etiquette and Customs",
+    content: "Respect local customs and cultural norms during your European adventures. Avoid cultural mishaps and embrace the diverse traditions of each country. Gain insights into proper etiquette and become a mindful traveler.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Travel Safety and Health Tips",
+    content: "Stay safe and healthy during your European travels with our essential tips. From personal safety precautions to health advice, we've got you covered. Travel with confidence knowing you're well-prepared for any situation.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Insider Tips for Popular Destinations",
+    content: "Navigate popular European destinations like a local with our insider tips. Discover hidden spots, avoid tourist traps, and immerse yourself in the authentic charm of renowned cities. Unearth the gems that only the locals know.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Food and Drink Experiences",
+    content: "Embark on a culinary journey through Europe's gastronomic delights. From tantalizing street food to Michelin-starred restaurants, savor the flavors of Europe with our curated list of must-try dishes, food markets, and local culinary experiences.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Itineraries and Route Suggestions",
+    content: "Take the stress out of planning with our expertly crafted itineraries and route suggestions. Whether you have a few days or weeks to spare, follow our detailed guides to explore the best cities, attractions, and hidden gems along the way.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Festivals and Events",
+    content: "Immerse yourself in Europe's vibrant festivals and events. Celebrate with locals and experience the cultural richness of Europe through festive traditions. Discover the best festivals, dates, and insider tips for an unforgettable time.",
+    extraContent: "in progres !!!"
+  },
+  {
+    title: "Budget-Friendly Travel Tips",
+    content: "Traveling in Europe on a budget? We've got you covered. Unlock the secrets of affordable travel with our budget-friendly tips. Find inexpensive accommodations, save on transportation, and indulge in the best experiences without breaking the bank.",
+    extraContent: "in progres !!!"
+  } 
+]
+
+
 export default function TipsPage() {
+
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(!open);
   return (
     <>
       <Navbar />
       <div className="mx-auto max-w-7xl sm:px-6 lg:mb-4">
-        <h1 className="flex justify-center mt-4 font-serif text-3xl font-bold text-center text-orange-950 ">
+        <h1 className="flex justify-center mt-4 font-serif text-3xl font-bold text-center text-brown-700 ">
           Are you Ready for Your Journey?
         </h1>
 
@@ -127,8 +187,8 @@ export default function TipsPage() {
             alt=""
             src="https://img.freepik.com/free-vector/europe-buildings-travel-illustration-card_1284-35665.jpg"
           />
-          <span className="flex flex-col justify-center order-2 font-sans font-serif text-orange-900 sm:order-2 sm:ml-4">
-            <p className="mx-1 font-light leading-loose tracking-wide">
+          <span className="flex flex-col justify-center order-2 font-sans font-serif text-xl text-brown-500 sm:order-2 sm:ml-4">
+            <p className="mx-1 font-light tracking-wide">
               Welcome to our travel blog, where we invite you on a captivating
               journey through the enchanting landscapes, rich history, and
               vibrant cultures of Europe. Explore the Old World charm of cities
@@ -154,7 +214,7 @@ export default function TipsPage() {
                 id={product.section + "Selector"}
                 className="w-full overflow-hidden bg-gray-200 border-2 rounded-lg aspect-h-1 aspect-w-1 xl:aspect-h-8 xl:aspect-w-7 product-selector"
               >
-                <h3 className="flex justify-center my-2 font-sans font-bold text-md text-orange-950">
+                <h3 className="flex justify-center my-2 font-sans font-bold text-md text-brown-800">
                   {product.name}
                 </h3>
                 <img
@@ -173,16 +233,16 @@ export default function TipsPage() {
         <div className="py-24 mx-auto max-w-7xl sm:px-2 sm:py-10 lg:px-4">
           <div className="max-w-2xl px-4 mx-auto lg:max-w-none">
             <div className="max-w-3xl">
-              <h2 className="font-semibold text-orange-900">
+              <h2 className="font-semibold text-brown-500">
                 Start your Journey from here
               </h2>
               <p
                 id="plan"
-                className="mt-2 font-sans text-3xl font-bold tracking-tight text-orange-950 sm:text-4xl"
+                className="mt-2 font-sans text-3xl font-bold tracking-tight text-brown-700 sm:text-4xl"
               >
                 How to Plan a Trip
               </p>
-              <p className="mt-4 font-sans text-orange-900">
+              <p className="mt-4 font-sans text-brown-500">
                 Planning your trip is an essential step towards a successful and
                 enjoyable travel experience. By taking the time to plan ahead,
                 you can maximize your time, minimize stress, and make the most
@@ -197,10 +257,10 @@ export default function TipsPage() {
                   className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
                 >
                   <div className="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
-                    <h3 className="text-5xl font-bold text-orange-950">
+                    <h3 className="text-5xl font-bold text-brown-700">
                       {feature.name}
                     </h3>
-                    <p className="mt-2 font-sans text-xl tracking-wider text-orange-900 whitespace-normal first-letter:float-left first-letter:text-5xl first-letter:pr-1 first-letter:font-black first-letter:text-black-500">
+                    <p className="mt-2 font-sans text-xl tracking-wider whitespace-normal text-brown-500 first-letter:float-left first-letter:text-5xl first-letter:pr-1 first-letter:font-black first-letter:text-black-500">
                       {feature.description}
                     </p>
                   </div>
@@ -233,10 +293,10 @@ export default function TipsPage() {
         id="insuranceSection"
         className="hidden transition-all duration-300 ease-in-out delay-150 bg-white section sm:py-10"
       >
-        <h1 className="flex justify-center pt-4 pb-10 font-sans text-4xl text-orange-950 text-bold">
+        <h1 className="flex justify-center pt-4 pb-10 font-sans text-4xl text-brown-700 text-bold">
           Choose your Best Insurance
         </h1>
-        <div className="flex justify-center mx-auto font-sans leading-loose tracking-wide text-orange-950 text-orange-850 max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex justify-center mx-auto font-sans leading-loose tracking-wide text-brown-600 text-orange-850 max-w-7xl sm:px-6 lg:px-8">
           <p>
             Exploring the wonders of Europe is an incredible adventure, but it's
             essential to prioritize your safety and peace of mind while
@@ -298,109 +358,117 @@ export default function TipsPage() {
         </div>
       </div>
 
+      {/* Travel safety */}
       <div
         id="safetySection"
         className="hidden transition-all duration-300 ease-in-out delay-150 bg-white section"
       >
-       {/* divider */}
-       <div className="relative">
-      <div className="absolute inset-0 flex items-center" aria-hidden="true">
-        <div className="w-full border-t border-gray-300" />
-      </div>
-      <div className="relative flex justify-center">
-        <span className="px-3 text-base font-semibold leading-6 text-orange-800 bg-white">Travel Safety</span>
-      </div>
-    </div>
-       
-          <div className="title">
-            <h1>Stay Aware</h1>
-          </div>
-          <div className="para">
-            <p>
-              Remain aware of your surroundings, particularly in
-              crowded tourist areas or public transportation hubs. Stay vigilant
-              to prevent any potential theft or scams.
-            </p>
-          </div>
-          <div className="title">
-            <h1>Stay Informed</h1>
-          </div>
-          <div className="para">
-            <p>
-              Stay updated on current events and any travel advisories issued by
-              your home country. Check government websites or contact your
-              embassy or consulate for the latest information and
-              recommendations.
-            </p>
-          </div>
-          <div className="title">
-            <h1>Travel Insurance</h1>
-          </div>
-          <div className="para">
-            <p>
-              Obtain comprehensive travel insurance that covers medical
-              emergencies, trip cancellations, and lost belongings. This
-              provides an extra layer of protection and peace of mind during
-              your travels.
-            </p>
-          </div>         
-          <div className="title">
-            <h1>Respect Local Customs</h1>
-          </div>
-          <div className="para">
-            <p>
-              Research the local customs, laws, and cultural norms of the
-              countries you plan to visit. This will help you avoid any
-              unintentional offenses and show respect to the local population.
-            </p>
-          </div>
-          <div className="title">
-            <h1>Beware of Pickpockets</h1>
-          </div>
-          <div className="para">
-            <p>
-              Be cautious of pickpockets who may operate in crowded tourist
-              areas. Keep your valuables in front pockets or use a money belt to
-              minimize the risk of theft.
-            </p>
-          </div>
-          
-          <div className="title">
-            <h1>Secure Your Belongings</h1>
-          </div>
-          <div className="para">
-            <p>
-              Keep your personal belongings secure at all times. Use a secure
-              bag or backpack and keep important documents, such as passports
-              and identification, in a safe place.
-            </p>
-          </div>
-          <div className="title">
-            <h1>Register with Your Embassy</h1>
-          </div>
-          <div className="para">
-            <p>
-              Consider registering with your embassy or consulate before your
-              trip. This allows them to reach out to you in case of any
-              emergencies or provide important updates or assistance during your
-              travels.
-            </p>
-          </div>
-          <div className="title">
-            <h1>Emergency Contact Information</h1>
-          </div>
-          <div className="para">
-            <p>
-              Save emergency contact numbers, including local authorities and
-              your embassy or consulate, in your phone or carry them with you
-              for quick access in case of any emergencies.
-            </p>
-          </div>
+        <div className="title">
+          <h1>1. Stay Aware</h1>
         </div>
+        <div className="para">
+          <p>
+            Remain aware of your surroundings, particularly in crowded tourist
+            areas or public transportation hubs. Stay vigilant to prevent any
+            potential theft or scams.
+          </p>
+        </div>
+        <div className="title">
+          <h1>2. Stay Informed</h1>
+        </div>
+        <div className="para">
+          <p>
+            Stay updated on current events and any travel advisories issued by
+            your home country. Check government websites or contact your embassy
+            or consulate for the latest information and recommendations.
+          </p>
+        </div>
+        <div className="title">
+          <h1>3. Travel Insurance</h1>
+        </div>
+        <div className="para">
+          <p>
+            Obtain comprehensive travel insurance that covers medical
+            emergencies, trip cancellations, and lost belongings. This provides
+            an extra layer of protection and peace of mind during your travels.
+          </p>
+        </div>
+        <div className="title">
+          <h1>4. Respect Local Customs</h1>
+        </div>
+        <div className="para">
+          <p>
+            Research the local customs, laws, and cultural norms of the
+            countries you plan to visit. This will help you avoid any
+            unintentional offenses and show respect to the local population.
+          </p>
+        </div>
+        <div className="title">
+          <h1>5. Beware of Pickpockets</h1>
+        </div>
+        <div className="para">
+          <p>
+            Be cautious of pickpockets who may operate in crowded tourist areas.
+            Keep your valuables in front pockets or use a money belt to minimize
+            the risk of theft.
+          </p>
+        </div>
+
+        <div className="title">
+          <h1>6. Secure Your Belongings</h1>
+        </div>
+        <div className="para">
+          <p>
+            Keep your personal belongings secure at all times. Use a secure bag
+            or backpack and keep important documents, such as passports and
+            identification, in a safe place.
+          </p>
+        </div>
+        <div className="title">
+          <h1>7. Register with Your Embassy</h1>
+        </div>
+        <div className="para">
+          <p>
+            Consider registering with your embassy or consulate before your
+            trip. This allows them to reach out to you in case of any
+            emergencies or provide important updates or assistance during your
+            travels.
+          </p>
+        </div>
+        <div className="title">
+          <h1>8. Emergency Contact Information</h1>
+        </div>
+        <div className="para">
+          <p>
+            Save emergency contact numbers, including local authorities and your
+            embassy or consulate, in your phone or carry them with you for quick
+            access in case of any emergencies.
+          </p>
+        </div>
+      </div>
+
+      {/* One step ahead */}
       <div
         id="stepSection"
         className="hidden transition-all duration-300 ease-in-out delay-150 bg-white section"
-      ></div>
+      >
+        <div className="py-24 bg-white sm:py-9">
+          <div className="px-6 mx-auto max-w-7xl lg:px-8">
+            <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-brown-700 sm:text-4xl">
+                One Step Ahead
+              </h1>
+              <div className="grid max-w-xl grid-cols-1 mt-4 font-sans text-base gap-x-8 text-orange-850 lg:max-w-none lg:grid-cols-2 gap-y-8">
+                {
+                  travelTips.map((tt, index) => (<TravelTip id={`tip-${index}`} title={tt.title} content={tt.content} extraContent={tt.extraContent}/>))
+                }
+                
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

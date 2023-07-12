@@ -2,6 +2,9 @@
 import AlbaniaPage from './AlbaniaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
+import LoginPage from './LoginPage';
+
+
 
 import {
   createBrowserRouter,
@@ -23,7 +26,13 @@ const routes = createBrowserRouter([
     element: <TipsPage/>,
     exact: true
   },
-
+  {
+    path: '/login',
+    element: <LoginPage/>,
+    exact: true
+  },
+ 
+ 
   // Alte rute
 ]);
 
