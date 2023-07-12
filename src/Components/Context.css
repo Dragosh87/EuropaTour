@@ -80,6 +80,7 @@ h2{
     font-size: 25px;
     border: 2px solid #BF9270;
     border-radius: 15px;
+    box-shadow: 10px 8px 6px grey;
     width: 450px;
     height: 400px;
     margin-top: 60px;

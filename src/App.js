@@ -16,7 +16,7 @@ function App() {
         <Rightbar />
       </div>
       <div className='review'>
-      <ReviewBar />
+      {/* <ReviewBar /> */}
       </div>
     </div>
   );
