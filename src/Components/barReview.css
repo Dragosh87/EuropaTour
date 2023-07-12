@@ -1,8 +1,8 @@
-.review{
+textarea{
     min-height: 100px;
     min-width: 400px;
-    border: 2px solid #f6ebe5;
     margin: 0;
+    font-family: fontText;
 }
 
 .container{
@@ -13,22 +13,29 @@
 
 .submit-button{
     display: flex;
-    align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 textarea:focus {
     outline: none;
-    font-family: fontText;
   }
 
   .username {
-    border: 2px solid #f6ebe5;
+    outline: none;
+    border: 2px solid #BF9270;
+    width: 434px; ;
     font-family: fontText;
   }
 
   h2 {
     font-family: fontText;
     padding: 10px;
+    font-size: 30px;
+  }
+
+  .comment {
+    display: inline-flex;
+    justify-content: center;
+    border: 2px solid #BF9270;
   }

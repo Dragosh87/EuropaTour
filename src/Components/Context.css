@@ -2,7 +2,6 @@
     width: 50%;
     height: 70%;
     display: flex;
-    /* justify-content: start;  Da ceva probleme la compilare, lam comentat, Dragosh */
 }
 
 @font-face {
@@ -54,11 +53,6 @@
     width: auto;
 }
 
-/* h2{
-    font-family: subtitle;
-    font-size: 35px;
-} */
-
 .paragraf3 {
     display: flex;
     align-items: center; 
@@ -86,6 +80,7 @@
     height: 400px;
     margin-top: 60px;
     padding: 10px;
+    background-color: #f2d9cb;
 }
 
 .europEst {
