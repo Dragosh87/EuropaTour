@@ -3,7 +3,12 @@ import './barReview.css';
 
 export function ReviewBar() {
   const [reviewText, setReviewText] = useState('');
+  const [userName, setUserName] = useState('');
   const [reviews, setReviews] = useState([]);
+
+  const handleUserNameChange = (event) => {
+    setUserName(event.target.value);
+  };
 
   const handleReviewChange = (event) => {
     setReviewText(event.target.value);
@@ -12,14 +17,21 @@ export function ReviewBar() {
   const handleReviewSubmit = () => {
     if (reviewText.trim() !== '') {
       console.log('Revizuire trimisă:', reviewText);
-      // Adaugă recenzia în lista de recenzii
-      setReviews((prevReviews) => [...prevReviews, reviewText]);
+      const reviewWithUserName = `${userName}: ${reviewText}`;
+      setReviews((prevReviews) => [...prevReviews, reviewWithUserName]);
       setReviewText('');
     }
   };
 
   return (
     <div className="container">
+      <input
+        className="username"
+        type="text"
+        placeholder="Nume utilizator"
+        value={userName}
+        onChange={handleUserNameChange}
+      />
       <textarea
         className="review"
         placeholder="Adaugă un comentariu..."
