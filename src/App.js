@@ -1,10 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
-import Leftbar from './Components/Leftbar';
-import Rightbar from './Components/Rightbar';
-import CentralContext from './Components/CentralСontext';
-import { ReviewBar } from './Components/barReview';
+import HomePage from './HomePage';
 
 function App() {
   return (
@@ -16,10 +12,11 @@ function App() {
         <Rightbar />
       </div>
       <div className='review'>
-      <ReviewBar />
+      {/* <ReviewBar /> */}
       </div>
     </div>
   );
 }
 
 export default App;
+

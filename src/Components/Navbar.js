@@ -3,6 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
+
     <div className="Navbar" style={{ backgroundColor: "white" }}>
       <nav className="nav_bar">
         <ul>

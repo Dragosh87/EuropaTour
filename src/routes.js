@@ -1,5 +1,6 @@
 // import CentralContext from './Components/CentralContext';
-import AlbaniaPage from './AlbaniaPage';
+import AlbaniaPage from './Countries/AlbaniaPage';
+import AustriaPage from './Countries/AustriaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
 import LoginPage from './LoginPage';
@@ -19,6 +20,11 @@ const routes = createBrowserRouter([
   {
     path: '/albania',
     element: <AlbaniaPage/>,
+    exact: true
+  },
+  {
+    path: '/austria',
+    element: <AustriaPage/>,
     exact: true
   },
   {
