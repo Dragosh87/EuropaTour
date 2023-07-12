@@ -2,6 +2,7 @@
     min-height: 100px;
     min-width: 400px;
     border: 2px solid #f6ebe5;
+    margin: 0;
 }
 
 .container{
@@ -19,4 +20,9 @@
 
 textarea:focus {
     outline: none;
+  }
+
+  .username {
+    border: 2px solid #f6ebe5;
+    
   }
