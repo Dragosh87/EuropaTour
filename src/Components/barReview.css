@@ -20,9 +20,15 @@
 
 textarea:focus {
     outline: none;
+    font-family: fontText;
   }
 
   .username {
     border: 2px solid #f6ebe5;
-    
+    font-family: fontText;
+  }
+
+  h2 {
+    font-family: fontText;
+    padding: 10px;
   }
