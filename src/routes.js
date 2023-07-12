@@ -3,6 +3,9 @@ import AlbaniaPage from './Countries/AlbaniaPage';
 import AustriaPage from './Countries/AustriaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
+import LoginPage from './LoginPage';
+
+
 
 import {
   createBrowserRouter,
@@ -20,16 +23,22 @@ const routes = createBrowserRouter([
     exact: true
   },
   {
+    path: '/austria',
+    element: <AustriaPage/>,
+    exact: true
+  },
+  {
     path: '/tips',
     element: <TipsPage/>,
     exact: true
   },
   {
-    path: '/austria',
-    element: <AustriaPage/>,
+    path: '/login',
+    element: <LoginPage/>,
     exact: true
   },
-
+ 
+ 
   // Alte rute
 ]);
 
