@@ -177,6 +177,8 @@ function Rightbar() {
         <Game />
       </div>
       <hr className="separator" />
+
+      
     </div>
     
     
