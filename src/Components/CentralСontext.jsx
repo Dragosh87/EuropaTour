@@ -39,11 +39,9 @@ function CentralContext() {
       </div>
       <div className='est'>
         <section className='europEst'>
-          <p>
-            <b>Eastern Europe</b>: Eastern Europe generally refers to the countries that were behind the Iron Curtain. It’s made up of Belarus,
+          <b>Eastern Europe</b>: Eastern Europe generally refers to the countries that were behind the Iron Curtain. It’s made up of Belarus,
             Bulgaria, Czech Republic, Hungary, Poland, Moldova, Romania, Russia, Slovakia, and Ukraine. It’s a cheaper destination for
             budget travelers, and some of its top historical sites include the Prague Castle, the State Hermitage Museum and Word War II history.
-          </p>
         </section>
         <section className='arrowEst'>
           <svg width="388" height="395" viewBox="0 0 388 395" fill="none" xmlns="http://www.w3.org/2000/svg">

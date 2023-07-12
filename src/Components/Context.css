@@ -54,9 +54,10 @@
     width: auto;
 }
 
-h2{
+/* h2{
+    font-family: subtitle;
     font-size: 35px;
-}
+} */
 
 .paragraf3 {
     display: flex;
@@ -71,8 +72,8 @@ h2{
   }
   
   .titlu1 {
-    font-family: fontText;
     margin-left: 250px;
+    font-size: 30px;
   }
 
 .europEst, .europNord, .europSud, .europWest {
@@ -85,6 +86,11 @@ h2{
     height: 400px;
     margin-top: 60px;
     padding: 10px;
+}
+
+.europEst {
+    font-family: fontText;
+    font-size: 25px;
 }
 
 .europSud {

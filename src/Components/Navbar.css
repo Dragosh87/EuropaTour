@@ -15,24 +15,15 @@
     border-radius: 0.5rem;
 }
 
-/* @font-face {
-    font-family: textFont;
-    src: url(Fragmentcore.ttf);
-}
-
-@font-face {
-    font-family: header;
-    src: url(forever.ttf);
-} */
 
 .header{
-    font-family: header;
+    font-family: subtitle;
     font-size: 90px;
     text-align: center;
 }
 
 .item, .item1{
-    font-family: textFont;
+    font-family: fontText;
     list-style-type: none;
     display: inline-block;
     padding: 1rem;
