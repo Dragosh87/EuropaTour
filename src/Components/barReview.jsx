@@ -25,16 +25,17 @@ export function ReviewBar() {
 
   return (
     <div className="container">
+        <h2><b>Reviews</b></h2>
       <input
         className="username"
         type="text"
-        placeholder="Nume utilizator"
+        placeholder="Name user"
         value={userName}
         onChange={handleUserNameChange}
       />
+      <div className='comment'>
       <textarea
-        className="review"
-        placeholder="Adaugă un comentariu..."
+        placeholder="Tell us your review..."
         value={reviewText}
         onChange={handleReviewChange}
       ></textarea>
@@ -71,8 +72,8 @@ export function ReviewBar() {
           </defs>
         </svg>
       </button>
+      </div>
       <div className="review-list">
-        <h2>Recenzii</h2>
         <ul>
           {reviews.map((review, index) => (
             <li key={index}>{review}</li>
