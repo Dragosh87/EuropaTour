@@ -16,13 +16,9 @@ export function ReviewBar() {
 
   const handleReviewSubmit = () => {
     if (reviewText.trim() !== '') {
-<<<<<<< HEAD
       console.log('Revizuire trimisă:', reviewText);
       const reviewWithUserName = `${userName}: ${reviewText}`;
       setReviews((prevReviews) => [...prevReviews, reviewWithUserName]);
-=======
-      setReviews((prevReviews) => [...prevReviews, reviewText]);
->>>>>>> 509589ff474094a3f67ecc41a3c2606138244fa6
       setReviewText('');
     }
   };
@@ -85,9 +81,4 @@ export function ReviewBar() {
       </div>
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 509589ff474094a3f67ecc41a3c2606138244fa6

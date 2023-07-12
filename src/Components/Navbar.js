@@ -12,8 +12,8 @@ function Navbar() {
   <ul>
     <li className="item">
       DESTINATIONS
-      <ul className="dropdown">
-        <li className="dropdown_item">Albania</li>
+      <ul className="z-50 dropdown">
+        <li className="dropdown_item"><a href='/albania'>Albania</a></li>
         <li className="dropdown_item">Austria</li>
         <li className="dropdown_item">Czech Republic</li>
         <li className="dropdown_item">France</li>
