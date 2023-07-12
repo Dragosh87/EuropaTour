@@ -3,11 +3,11 @@
 }
 
 .review{
-  padding: 10%;
+  padding: 7%;
   display: flex;
   justify-content: center;
   align-items: end;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px;
   /* height: 120px;
   width: 400px; */

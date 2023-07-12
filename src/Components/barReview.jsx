@@ -16,19 +16,17 @@ export function ReviewBar() {
 
   const handleReviewSubmit = () => {
     if (reviewText.trim() !== '') {
-<<<<<<< HEAD
       console.log('Revizuire trimisă:', reviewText);
       const reviewWithUserName = `${userName}: ${reviewText}`;
       setReviews((prevReviews) => [...prevReviews, reviewWithUserName]);
-=======
-      setReviews((prevReviews) => [...prevReviews, reviewText]);
->>>>>>> 509589ff474094a3f67ecc41a3c2606138244fa6
       setReviewText('');
     }
   };
 
   return (
+    
     <div className="container">
+      <h2>Recenzii</h2>
       <input
         className="username"
         type="text"
@@ -76,7 +74,7 @@ export function ReviewBar() {
         </svg>
       </button>
       <div className="review-list">
-        <h2>Recenzii</h2>
+        
         <ul>
           {reviews.map((review, index) => (
             <li key={index}>{review}</li>
@@ -85,9 +83,4 @@ export function ReviewBar() {
       </div>
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 509589ff474094a3f67ecc41a3c2606138244fa6
