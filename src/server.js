@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Alte configurații sau rutele backend-ului vor fi adăugate aici
 
-const port = 3000; // sau orice alt port pe care doriți să îl utilizați
+const port = 5000; // sau orice alt port pe care doriți să îl utilizați
 
 app.listen(port, () => {
   console.log(`Serverul rulează pe portul ${port}`);
