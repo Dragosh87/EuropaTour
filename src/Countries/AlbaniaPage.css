@@ -1,6 +1,40 @@
 .imageHeader{
     width: 1480px;
-    height: 400px;
+    height: 450px;
+}
+
+.header{
+    background-color: #f6ebe5;
+    width: auto;
+}
+
+.header2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info_item{
+    text-align: center;
+    font-size: 20px;
+}
+
+.info{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 25%;
+}
+
+.info_list{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.info_item{
+    border-bottom: 1px solid black;
+    padding: 2rem;
 }
 
 .first_part{
@@ -14,8 +48,8 @@
 .second_part{
     border: 2px solid #f6ebe5;
     background-color: #f6ebe5;
-    width: 1200px;
-    height: 800px;
+    width: 1480px;
+    height: auto;
     margin-top: 30px;
 }
 
@@ -89,6 +123,7 @@ h3{
     align-items: center;
     margin-top: 20px;
     border: 2px solid black;
+    border-radius: 0.5rem;
     width: fit-content;
 }
 
@@ -111,4 +146,11 @@ h4{
     color: #be8e69;
 }
   
-  
+.landscapes{
+    width: 100%;
+    height: 400px;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+
