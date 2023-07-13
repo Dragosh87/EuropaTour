@@ -60,9 +60,9 @@ function Game() {
 
   const handleOptionSelect = (selectedCapital) => {
     if (selectedCapital === randomCountry.capital) {
-      setMessage(<span style={{ color: 'green' }}>Bravo! Răspuns corect!</span>);
+      setMessage(<span style={{ color: 'green' }}>Bravo! Correct answer!</span>);
     } else {
-      setMessage(<span style={{ color: 'red' }}>Răspuns greșit! Încearcă din nou.</span>);
+      setMessage(<span style={{ color: 'red' }}>Wrong answer! Try again.</span>);
     }
   };
 
@@ -74,7 +74,7 @@ function Game() {
     <div>
       {randomCountry && (
         <div>
-          <h4>Țara: {randomCountry.name}</h4>
+          <h4>Country: {randomCountry.name}</h4>
          
           {options.map((capital, index) => (
             <button key={index} onClick={() => handleOptionSelect(capital)}>

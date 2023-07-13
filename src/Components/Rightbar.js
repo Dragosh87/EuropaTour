@@ -116,7 +116,7 @@ function Rightbar() {
         alt="GIF"
         style={{ width: '360px', height: 'auto', margin: '00px' }}
       />
-      <h3>Explorează țările Europei și descoperă informații interesante</h3>
+      <h3 className='text-h3'>Explore the countries of Europe and discover interesting information</h3>
 
       <div className="ChooseCountry">
         <select
@@ -128,7 +128,7 @@ function Rightbar() {
             handleCountrySelect(selectedCountry);
           }}
         >
-          <option value="">Selectează țara</option>
+          <option value="">Select the country</option>
           {countries.map((country, index) => (
             <option key={index} value={country.name.common}>
               {country.name.common}
@@ -139,13 +139,13 @@ function Rightbar() {
 
       {selectedCountry && showDetails && (
         <div className="CountryDetails">
-          <h4>Steagul țării</h4>
+          <h4>Country flag</h4>
           <img src={selectedCountry.flags.svg} alt={selectedCountry.name.common} />
-          <h4>Stema</h4>
+          <h4>Coat of arms</h4>
           <img src={selectedCountry.coatOfArms.svg} alt="Coat of Arms" />
-          <h4>Capitala</h4>
+          <h4>Capital</h4>
           <p>{selectedCountry.capital[0]}</p>
-          <h4>Populație</h4>
+          <h4>Population</h4>
           <p>{selectedCountry.population}</p>
           <div className="Geobutton">
             {showGeolocation && (
@@ -173,7 +173,7 @@ function Rightbar() {
       <hr className="separator" />
       
       <div className="Game">
-        <h3>Joc: Alege capitala corectă 🎯</h3>
+        <h3 className='text-h3'>JGame: Choose the correct capital 🎯</h3>
         <Game />
       </div>
       <hr className="separator" />
