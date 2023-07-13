@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Rightbar.css';
 
 function Game() {
   const [randomCountry, setRandomCountry] = useState(null);
@@ -60,9 +59,9 @@ function Game() {
 
   const handleOptionSelect = (selectedCapital) => {
     if (selectedCapital === randomCountry.capital) {
-      setMessage(<span style={{ color: 'green' }}>Bravo! Correct answer!</span>);
+      setMessage('Bravo! Correct answer!');
     } else {
-      setMessage(<span style={{ color: 'red' }}>Wrong answer! Try again.</span>);
+      setMessage('Wrong answer! Try again.');
     }
   };
 
@@ -71,22 +70,35 @@ function Game() {
   };
 
   return (
-    <div>
+    <div className="game-container mx-auto my-4 px-6 py-4 bg-gray-100 border border-gray-300 rounded">
+      <h3 className="text-h3">Game: Choose the correct capital 🎯</h3>
       {randomCountry && (
         <div>
-          <h4>Country: {randomCountry.name}</h4>
-         
-          {options.map((capital, index) => (
-            <button key={index} onClick={() => handleOptionSelect(capital)}>
-              {capital}
-            </button>
-          ))}
-          <p>{message}</p>
-          <button onClick={handleNewGame}>Joc Nou</button>
+          <h4 className="space-y-2">Country: {randomCountry.name}</h4>
+          <div className="grid grid-cols-2 gap-4">
+            {options.map((capital, index) => (
+              <button
+                key={index}
+                onClick={() => handleOptionSelect(capital)}
+                className="px-4 py-2 bg-ffeddb text-edcdbb rounded hover:bg-e3b7a0 hover:text-white focus:outline-none my-2 px-2 py-1"
+                style={{ backgroundColor: '#EDCDBB' }}
+              >
+                {capital}
+              </button>
+            ))}
+          </div>
+          <p className={`mt-4 ${message.startsWith('Bravo') ? 'text-green-500' : 'text-red-500'}`}>{message}</p>
+          <button
+            onClick={handleNewGame}
+            className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 focus:outline-none"
+          >
+            Joc Nou
+          </button>
         </div>
       )}
     </div>
   );
+
 }
 
 export default Game;

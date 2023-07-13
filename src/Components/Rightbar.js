@@ -139,13 +139,13 @@ function Rightbar() {
 
       {selectedCountry && showDetails && (
         <div className="CountryDetails">
-          <h4>Country flag</h4>
+          <h4 className='text-h4'>Country flag</h4>
           <img src={selectedCountry.flags.svg} alt={selectedCountry.name.common} />
-          <h4>Coat of arms</h4>
+          <h4 className='text-h4'>Coat of arms</h4>
           <img src={selectedCountry.coatOfArms.svg} alt="Coat of Arms" />
-          <h4>Capital</h4>
+          <h4 className='text-h4'>Capital</h4>
           <p>{selectedCountry.capital[0]}</p>
-          <h4>Population</h4>
+          <h4 className='text-h4'>Population</h4>
           <p>{selectedCountry.population}</p>
           <div className="Geobutton">
             {showGeolocation && (
@@ -173,7 +173,7 @@ function Rightbar() {
       <hr className="separator" />
       
       <div className="Game">
-        <h3 className='text-h3'>JGame: Choose the correct capital 🎯</h3>
+        
         <Game />
       </div>
       <hr className="separator" />
