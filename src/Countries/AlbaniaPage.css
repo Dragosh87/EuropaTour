@@ -126,9 +126,10 @@
     font-size: 20px;
 }
 
-h4{
+/* dai te rog o clasa separat la h4 ca se schimba prin toate componentele la 40px
+/* h4{
     font-size: 40px;
-}
+} */
 
 .dollar{
     font-size: 100px;
