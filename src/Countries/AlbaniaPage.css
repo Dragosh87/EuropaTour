@@ -3,7 +3,7 @@
     height: 450px;
 }
 
-.header{
+.header1{
     background-color: #f6ebe5;
     width: auto;
 }
@@ -74,6 +74,7 @@
 
 .title{
     text-align: center;
+    font-size: 60px;
 }
 
 .content_of_cities{
@@ -116,26 +117,16 @@
     width: fit-content;
 }
 
-.money{
-    width: 517px;
-    padding: 10px;
-    height: 355px;
-}
+
 
 .paragraf1{
     font-size: 20px;
 }
 
-/* dai te rog o clasa separat la h4 ca se schimba prin toate componentele la 40px
-/* h4{
+.title_h4{
     font-size: 40px;
-} */
-
-.dollar{
-    font-size: 100px;
-    color: #be8e69;
 }
-  
+
 .landscapes{
     width: 100%;
     height: 400px;

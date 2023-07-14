@@ -6,7 +6,7 @@ function AlbaniaPage() {
   return (
     <div className='pageContainer'>
       <div><Navbar /></div>
-      <div className='header'>
+      <div className='header1'>
         <h3 className='title'>Albania Travel Guide</h3>
       </div>
       <div className='content_of_cities'>
@@ -32,11 +32,11 @@ function AlbaniaPage() {
           </svg>
 
           <ol className='list_of_cities'>
-            <li className='item_city'>BERAT</li>
-            <li className='item_city'>GJIROKASTER</li>
-            <li className='item_city'>HIMARE</li>
-            <li className='item_city'>KSAMIL</li>
-            <li className='item_city'>TIRANA</li>
+            <li className='item_city'><a href='https://ro.wikipedia.org/wiki/Berat' target='_blank'>BERAT</a></li>
+            <li className='item_city'><a href='https://www.mywanderlust.pl/gjirokaster-albania/' target='_blank'>GJIROKASTER</a></li>
+            <li className='item_city'><a href='https://travelplanner.ro/blog/despre-himare-albania/' target='_blank'>HIMARE</a></li>
+            <li className='item_city'><a href='https://travelplanner.ro/blog/despre-ksamil-micul-paradis-din-sudul-albaniei/' target='_blank'>KSAMIL</a></li>
+            <li className='item_city'><a href='https://ro.wikipedia.org/wiki/Tirana' target='_blank'>TIRANA</a></li>
           </ol>
 
           <svg width="335" height="32" viewBox="0 0 335 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,15 +78,15 @@ function AlbaniaPage() {
 </filter>
 </defs>
 </svg>
-      <h4>Best time to Travel</h4>
+      <h4 className='title_h4'>Best time to Travel</h4>
       <p className='paragraf'>April to October is the best time to visit Albania!</p>
       </div>
            
-            <div className='money'>
+            {/* <div className='money'>
               <h1 className='dollar'>$</h1>
               <h4>Currency</h4>
               <p className='paragraf1'>The currency in Albania is Lekë. 1 USD is equivalent to 115 LEK!</p>
-            </div>
+            </div> */}
             </section>
         <h2 className='header2'>Here are some key details about the country:</h2>
                 <div className='info'>
