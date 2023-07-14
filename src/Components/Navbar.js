@@ -6,6 +6,7 @@ function Navbar() {
     <div className="Navbar" style={{ flex: '0 0 30%', backgroundColor: 'white' }}>
     <nav className="nav_bar">
   <ul>
+    <li className="item"><a href='/' target="_blank">HOME</a></li>
     <li className="item">
       DESTINATIONS
       <ul className="z-50 dropdown">
@@ -21,8 +22,7 @@ function Navbar() {
         <li className="dropdown_item">Spain</li>
       </ul>
     </li>
-    <li className="item">TRAVEL TIPS</li>
-    <li className="item"><a href="#">ABOUT US</a></li>
+    <li className="item"><a href="/tips" target="_blank">TRAVEL TIPS</a></li>
     <li className="item1">
       <a href='mailto: eurotravelguide2023@gmail.com'>
          CONTACT</a>

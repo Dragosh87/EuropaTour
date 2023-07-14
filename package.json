@@ -17,6 +17,7 @@
     "country-state-city": "^3.1.4",
     "express": "^4.18.2",
     "framer-motion": "^10.12.18",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-live-clock": "^6.1.14",
@@ -60,12 +61,4 @@
   "main": "server.js",
   "author": "",
   "license": "ISC"
-}
-
-{
-  "presets": [
-    ["@babel/preset-react", {
-      "throwIfNamespace": false
-    }]
-  ]
 }
