@@ -39,7 +39,7 @@ function CentralContext() {
       </div>
       <div className='est'>
         <section className='europEst'>
-          <b>Eastern Europe</b>: Eastern Europe generally refers to the countries that were behind the Iron Curtain. It’s made up of Belarus,
+          <b>Eastern Europe</b> Eastern Europe generally refers to the countries that were behind the Iron Curtain. It’s made up of Belarus,
             Bulgaria, Czech Republic, Hungary, Poland, Moldova, Romania, Russia, Slovakia, and Ukraine. It’s a cheaper destination for
             budget travelers, and some of its top historical sites include the Prague Castle, the State Hermitage Museum and Word War II history.
         </section>
@@ -84,13 +84,13 @@ function CentralContext() {
           </svg>
         </section>
         <section className='europNord'>
-          <b>Northern Europe</b>: Northern Europe is known for its stunning fjords, wintery landscapes, and the most beautiful natural phenomena, the Northern Lights. If you want to see
+          <b>Northern Europe</b> Northern Europe is known for its stunning fjords, wintery landscapes, and the most beautiful natural phenomena, the Northern Lights. If you want to see
           them, you’ll need to visit in the winter when conditions are at their best. Northern Europe encapsulates Scandanavia, the Baltics, and the United Kingdom.
         </section>
       </div>
       <div className='sud'>
         <section className='europSud'>
-          <b>Southern Europe</b>: Southern Europe is made up of all the countries close to the Mediterranean Sea. Spain, Italy, Malta, Greece, Croatia, Bosnia and Herzegovina, and Montenegro
+          <b>Southern Europe</b> Southern Europe is made up of all the countries close to the Mediterranean Sea. Spain, Italy, Malta, Greece, Croatia, Bosnia and Herzegovina, and Montenegro
           are some of the most visited destinations in the region. It’s known for its incredible sailing, natural wonders, and ancient history. And the food! Talk about a wine lover’s dream destination.
         </section>
         <section className='arrowSud'>
@@ -134,7 +134,7 @@ function CentralContext() {
           </svg>
         </section>
         <section className='europWest'>
-          <b>Western Europe</b>: Western Europe is one of the most popular regions in Europe. It’s home to countries like Austria, France, Germany, Netherlands, and Switzerland that attract millions of visitors each year. Some of its most-traveled cities are Paris, Berlin, Vienna and Amsterdam!
+          <b>Western Europe</b> Western Europe is one of the most popular regions in Europe. It’s home to countries like Austria, France, Germany, Netherlands, and Switzerland that attract millions of visitors each year. Some of its most-traveled cities are Paris, Berlin, Vienna and Amsterdam!
         </section>
       </div>
       {/* <footer className='footer'>
