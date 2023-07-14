@@ -18,12 +18,16 @@
     margin-top: 70px;
 }
 
+.link_to_city:hover{
+    background-color: #bf9d83;
+}
+
 .info{
     width: 700px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 25%;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .info_list{

@@ -32,11 +32,11 @@ function AlbaniaPage() {
           </svg>
 
           <ol className='list_of_cities'>
-            <li className='item_city'><a href='https://ro.wikipedia.org/wiki/Berat' target='_blank'>BERAT</a></li>
-            <li className='item_city'><a href='https://www.mywanderlust.pl/gjirokaster-albania/' target='_blank'>GJIROKASTER</a></li>
-            <li className='item_city'><a href='https://travelplanner.ro/blog/despre-himare-albania/' target='_blank'>HIMARE</a></li>
-            <li className='item_city'><a href='https://travelplanner.ro/blog/despre-ksamil-micul-paradis-din-sudul-albaniei/' target='_blank'>KSAMIL</a></li>
-            <li className='item_city'><a href='https://ro.wikipedia.org/wiki/Tirana' target='_blank'>TIRANA</a></li>
+            <li className='item_city'><a className='link_to_city' href='https://ro.wikipedia.org/wiki/Berat' target='_blank'>BERAT</a></li>
+            <li className='item_city'><a className='link_to_city' href='https://www.mywanderlust.pl/gjirokaster-albania/' target='_blank'>GJIROKASTER</a></li>
+            <li className='item_city'><a className='link_to_city' href='https://travelplanner.ro/blog/despre-himare-albania/' target='_blank'>HIMARE</a></li>
+            <li className='item_city'><a className='link_to_city' href='https://travelplanner.ro/blog/despre-ksamil-micul-paradis-din-sudul-albaniei/' target='_blank'>KSAMIL</a></li>
+            <li className='item_city'><a className='link_to_city' href='https://ro.wikipedia.org/wiki/Tirana' target='_blank'>TIRANA</a></li>
           </ol>
 
           <svg width="335" height="32" viewBox="0 0 335 32" fill="none" xmlns="http://www.w3.org/2000/svg">
