@@ -4,7 +4,6 @@ import TravelTip from "./Components/tips/TravelTip";
 import "./TipsPage.css";
 import { Fragment, useState } from "react";
 
-
 function showSection(sectionName) {
   document
     .querySelectorAll(".section")
@@ -23,7 +22,7 @@ const products = [
     id: 1,
     name: "How to Plan a Trip",
     href: "#plan",
-    imageSrc: "https://www.travelex.co.uk/media/2580/europe1.jpg",
+    imageSrc: "/europe1.jpg",
     imageAlt: "Efel Tour",
     section: "plan",
   },
@@ -31,7 +30,7 @@ const products = [
     id: 2,
     name: "Best Travel Insurances",
     href: "#insurance",
-    imageSrc: "https://static.toiimg.com/photo/63875889.cms",
+    imageSrc: "/63875889.webp",
     imageAlt: "City on the water",
     section: "insurance",
   },
@@ -39,8 +38,7 @@ const products = [
     id: 3,
     name: "Travel Safety",
     href: "#",
-    imageSrc:
-      "https://wanderlustcrew.com/wp-content/uploads/2019/03/Europe-Travel-Tips-01.jpg",
+    imageSrc: "/Europe-Travel-Tips-01.jpg",
     imageAlt: "Happy girl in Venece",
     section: "safety",
   },
@@ -48,8 +46,7 @@ const products = [
     id: 4,
     name: "One Step Ahead",
     href: "#",
-    imageSrc:
-      "https://i0.wp.com/tigrest.com/wp-content/uploads/2018/05/Eastern-Europe-Travel-Itinerary.jpg?fit=960%2C640&ssl=1",
+    imageSrc: "/Eastern-Europe-Travel-Itinerary.webp",
     imageAlt: "Briges in the city",
     section: "step",
   },
@@ -117,60 +114,272 @@ const features = [
 const travelTips = [
   {
     title: "Packing Tips and Hacks ",
-    content: "Master the art of efficient packing with these valuable tips and hacks. Learn how to maximize space, organize your belongings, and pack smart for your European adventures. Say goodbye to overpacking and hello to stress-free travel",
-    extraContent: "in progres !!!"
+    content:
+      "Master the art of efficient packing with these valuable tips and hacks. Learn how to maximize space, organize your belongings, and pack smart for your European adventures. Say goodbye to overpacking and hello to stress-free travel",
+    extraContent: (
+      <div class="max-w-md mx-auto p-4 bg-gray-100 rounded-lg">
+        <h2 class="text-lg font-bold mb-4">Travel Packing Tips:</h2>
+        <ul class="list-disc pl-6">
+          <li>Create a checklist to stay organized.</li>
+          <li>Pack versatile clothing items.</li>
+          <li>Roll your clothes to save space.</li>
+          <li>Use travel-sized toiletries.</li>
+          <li>Utilize packing cubes for organization.</li>
+          <li>Carry a portable charger for electronics.</li>
+          <li>Keep important documents easily accessible.</li>
+          <li>Pack a small day bag for outings.</li>
+          <li>Leave room for souvenirs.</li>
+          <li>Travel light for a more enjoyable journey.</li>
+        </ul>
+        <p class="text-sm text-gray-600 mt-4">
+          Remember, efficient packing can enhance your travel experience. Plan
+          ahead and pack smart!
+        </p>
+      </div>
+    ),
   },
-  
   {
     title: "Must-Visit Hidden Gems ",
-    content: "Escape the crowds and discover Europe's hidden gems. From charming villages tucked away in picturesque landscapes to lesser-known cultural treasures, unveil the secrets of these off-the-beaten-path destinations for an unforgettable travel experience.",  
-    extraContent: "in progres !!!"
+    content:
+      "Escape the crowds and discover Europe's hidden gems. From charming villages tucked away in picturesque landscapes to lesser-known cultural treasures, unveil the secrets of these off-the-beaten-path destinations for an unforgettable travel experience.",
+    extraContent: (
+      <div class="max-w-md mx-auto p-4 bg-gray-100 rounded-lg">
+        <h2 class="text-lg font-bold mb-4">
+          Finding Travel Hidden Gems in Europe:
+        </h2>
+        <ul class="list-disc pl-6">
+          <li>
+            Research lesser-known destinations and off-the-beaten-path
+            locations.
+          </li>
+          <li>Connect with locals or fellow travelers for insider tips.</li>
+          <li>Explore small towns and villages outside major tourist hubs.</li>
+          <li>
+            Visit local markets, cafes, and restaurants for authentic
+            experiences.
+          </li>
+          <li>
+            Follow travel bloggers or social media accounts highlighting hidden
+            gems.
+          </li>
+          <li>
+            Consult travel guidebooks and online resources for hidden gem
+            recommendations.
+          </li>
+          <li>Take scenic detours and explore natural landscapes.</li>
+          <li>
+            Visit local museums, galleries, and cultural events for unique
+            insights.
+          </li>
+          <li>
+            Embrace spontaneous adventures and be open to unexpected
+            discoveries.
+          </li>
+          <li>
+            Interact with locals to learn about hidden gems known only to them.
+          </li>
+        </ul>
+        <p class="text-sm text-gray-600 mt-4">
+          Uncovering hidden gems can add a sense of adventure to your European
+          journey. Happy exploring!
+        </p>
+      </div>
+    ),
   },
   {
     title: "Transportation Guides",
-    content: "Getting around Europe is a breeze with our comprehensive transportation guides. Whether you're hopping on trains, buses, or trams, we'll provide you with everything you need to know to navigate Europe's efficient transportation systems like a pro.",
-    extraContent: "in progres !!!"
+    content:
+      "Getting around Europe is a breeze with our comprehensive transportation guides. Whether you're hopping on trains, buses, or trams, we'll provide you with everything you need to know to navigate Europe's efficient transportation systems like a pro.",
+    extraContent: (
+      <div class="max-w-md mx-auto p-4 bg-gray-100 rounded-lg">
+        <h2 class="text-lg font-bold mb-4">Travel Transportation Tips:</h2>
+        <ul class="list-disc pl-6">
+          <li>Research transportation options in advance.</li>
+          <li>Consider a rail pass for extensive travel.</li>
+          <li>Familiarize yourself with local transportation systems.</li>
+          <li>Check for any special passes or discounts available.</li>
+          <li>Plan for shorter distances with buses or regional trains.</li>
+          <li>Utilize ferries for island or coastal destinations.</li>
+          <li>Pay attention to schedules and ticketing information.</li>
+          <li>Keep important travel documents and tickets secure.</li>
+          <li>Stay aware of any cultural norms or etiquette.</li>
+          <li>Be prepared for potential delays or changes in plans.</li>
+        </ul>
+        <p class="text-sm text-gray-600 mt-4">
+          Understanding transportation options is key to a successful journey.
+          Enjoy your travels with these tips!
+        </p>
+      </div>
+    ),
   },
   {
     title: "Cultural Etiquette and Customs",
-    content: "Respect local customs and cultural norms during your European adventures. Avoid cultural mishaps and embrace the diverse traditions of each country. Gain insights into proper etiquette and become a mindful traveler.",
-    extraContent: "in progres !!!"
+    content:
+      "Respect local customs and cultural norms during your European adventures. Avoid cultural mishaps and embrace the diverse traditions of each country. Gain insights into proper etiquette and become a mindful traveler.",
+    extraContent: (
+      <div class="max-w-md mx-auto p-4 bg-gray-100 rounded-lg">
+        <h2 class="text-lg font-bold mb-4">
+          Respecting Cultural Etiquette and Customs:
+        </h2>
+        <ul class="list-disc pl-6">
+          <li>
+            Research the cultural norms and customs of the countries you plan to
+            visit.
+          </li>
+          <li>
+            Dress appropriately, following local customs and religious
+            sensitivities.
+          </li>
+          <li>
+            Learn a few basic phrases in the local language to show respect.
+          </li>
+          <li>
+            Be mindful of public behavior and follow local rules and
+            regulations.
+          </li>
+          <li>
+            Respect religious sites and traditions, dress modestly, and adhere
+            to any guidelines.
+          </li>
+          <li>
+            Ask for permission before taking photos of people, especially in
+            more conservative regions.
+          </li>
+          <li>Be aware of local dining customs and table manners.</li>
+          <li>Respect personal space and avoid intrusive behavior.</li>
+          <li>
+            Learn and use proper greetings and gestures for each culture you
+            encounter.
+          </li>
+          <li>
+            Take time to understand and appreciate the local customs,
+            traditions, and history.
+          </li>
+        </ul>
+        <p class="text-sm text-gray-600 mt-4">
+          Respecting cultural etiquette enhances cross-cultural understanding
+          and fosters positive interactions during your European travels.
+        </p>
+      </div>
+    ),
   },
   {
     title: "Travel Safety and Health Tips",
-    content: "Stay safe and healthy during your European travels with our essential tips. From personal safety precautions to health advice, we've got you covered. Travel with confidence knowing you're well-prepared for any situation.",
-    extraContent: "in progres !!!"
+    content:
+      "Stay safe and healthy during your European travels with our essential tips. From personal safety precautions to health advice, we've got you covered. Travel with confidence knowing you're well-prepared for any situation.",
+    extraContent: (
+      <div class="max-w-md mx-auto p-4 bg-gray-100 rounded-lg">
+        <h2 class="text-lg font-bold mb-4">Travel Safety and Health Tips:</h2>
+        <ul class="list-disc pl-6">
+          <li>
+            Research the safety situation and any travel advisories for your
+            destinations.
+          </li>
+          <li>
+            Keep a copy of important documents and emergency contact
+            information.
+          </li>
+          <li>
+            Secure your belongings and be cautious of your surroundings,
+            especially in crowded areas.
+          </li>
+          <li>
+            Stay informed about local customs, laws, and cultural sensitivities.
+          </li>
+          <li>
+            Stay hydrated and maintain good hygiene practices, including
+            handwashing.
+          </li>
+          <li>
+            Pack a basic first aid kit with essentials such as band-aids,
+            medications, and insect repellent.
+          </li>
+          <li>
+            Get travel insurance to cover unexpected events, including medical
+            emergencies.
+          </li>
+          <li>
+            Check if you need any vaccinations or preventive measures before
+            traveling.
+          </li>
+          <li>
+            Follow food and water safety precautions to avoid foodborne
+            illnesses.
+          </li>
+          <li>
+            Be cautious when trying new activities or adventure sports, and
+            choose reputable operators.
+          </li>
+        </ul>
+        <p class="text-sm text-gray-600 mt-4">
+          Prioritizing safety and health during your travels ensures a more
+          enjoyable and worry-free experience in Europe.
+        </p>
+      </div>
+    ),
   },
-  {
-    title: "Insider Tips for Popular Destinations",
-    content: "Navigate popular European destinations like a local with our insider tips. Discover hidden spots, avoid tourist traps, and immerse yourself in the authentic charm of renowned cities. Unearth the gems that only the locals know.",
-    extraContent: "in progres !!!"
-  },
+
   {
     title: "Food and Drink Experiences",
-    content: "Embark on a culinary journey through Europe's gastronomic delights. From tantalizing street food to Michelin-starred restaurants, savor the flavors of Europe with our curated list of must-try dishes, food markets, and local culinary experiences.",
-    extraContent: "in progres !!!"
+    content:
+      "Embark on a culinary journey through Europe's gastronomic delights. From tantalizing street food to Michelin-starred restaurants, savor the flavors of Europe with our curated list of must-try dishes, food markets, and local culinary experiences.",
+    extraContent: (
+      <div class="max-w-md mx-auto p-4 bg-gray-100 rounded-lg">
+        <h2 class="text-lg font-bold mb-4">
+          Food and Drink Experiences in Europe:
+        </h2>
+        <ul class="list-disc pl-6">
+          <li>
+            Sample local cuisine and traditional dishes in each destination.
+          </li>
+          <li>
+            Visit local markets and food stalls to experience the flavors of the
+            region.
+          </li>
+          <li>
+            Try regional specialties and delicacies for an authentic taste of
+            the culture.
+          </li>
+          <li>
+            Explore wine regions and participate in wine tastings and vineyard
+            tours.
+          </li>
+          <li>
+            Indulge in café culture and enjoy local coffee, pastries, and
+            people-watching.
+          </li>
+          <li>
+            Take cooking classes or food tours to learn about local culinary
+            traditions.
+          </li>
+          <li>
+            Experiment with street food for a delicious and affordable dining
+            experience.
+          </li>
+          <li>
+            Discover hidden gems by asking locals for their favorite food
+            recommendations.
+          </li>
+          <li>
+            Respect dining customs, such as observing meal times and tipping
+            practices.
+          </li>
+          <li>
+            Embrace the pleasure of slow dining and savor each meal as a social
+            and cultural experience.
+          </li>
+        </ul>
+        <p class="text-sm text-gray-600 mt-4">
+          Food and drink experiences in Europe offer a delightful way to explore
+          the rich gastronomic traditions of each country and immerse yourself
+          in the local culture.
+        </p>
+      </div>
+    ),
   },
-  {
-    title: "Itineraries and Route Suggestions",
-    content: "Take the stress out of planning with our expertly crafted itineraries and route suggestions. Whether you have a few days or weeks to spare, follow our detailed guides to explore the best cities, attractions, and hidden gems along the way.",
-    extraContent: "in progres !!!"
-  },
-  {
-    title: "Festivals and Events",
-    content: "Immerse yourself in Europe's vibrant festivals and events. Celebrate with locals and experience the cultural richness of Europe through festive traditions. Discover the best festivals, dates, and insider tips for an unforgettable time.",
-    extraContent: "in progres !!!"
-  },
-  {
-    title: "Budget-Friendly Travel Tips",
-    content: "Traveling in Europe on a budget? We've got you covered. Unlock the secrets of affordable travel with our budget-friendly tips. Find inexpensive accommodations, save on transportation, and indulge in the best experiences without breaking the bank.",
-    extraContent: "in progres !!!"
-  } 
-]
-
+];
 
 export default function TipsPage() {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(!open);
   return (
@@ -296,7 +505,7 @@ export default function TipsPage() {
         <h1 className="flex justify-center pt-4 pb-10 font-sans text-4xl text-brown-700 text-bold">
           Choose your Best Insurance
         </h1>
-        <div className="flex justify-center mx-auto font-sans leading-loose tracking-wide text-brown-600 text-orange-850 max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex justify-center mx-auto font-sans leading-loose tracking-wide text-brown-600 text-grey-850 max-w-7xl sm:px-6 lg:px-8">
           <p>
             Exploring the wonders of Europe is an incredible adventure, but it's
             essential to prioritize your safety and peace of mind while
@@ -458,12 +667,15 @@ export default function TipsPage() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-brown-700 sm:text-4xl">
                 One Step Ahead
               </h1>
-              <div className="grid max-w-xl grid-cols-1 mt-4 font-sans text-base gap-x-8 text-orange-850 lg:max-w-none lg:grid-cols-2 gap-y-8">
-                {
-                  travelTips.map((tt, index) => (<TravelTip id={`tip-${index}`} title={tt.title} content={tt.content} extraContent={tt.extraContent}/>))
-                }
-                
-                  
+              <div className="grid max-w-xl grid-cols-1 mt-4 font-sans text-base gap-x-8 text-grey-850 lg:max-w-none lg:grid-cols-2 gap-y-8">
+                {travelTips.map((tt, index) => (
+                  <TravelTip
+                    id={`tip-${index}`}
+                    title={tt.title}
+                    content={tt.content}
+                    extraContent={tt.extraContent}
+                  />
+                ))}
               </div>
             </div>
           </div>
