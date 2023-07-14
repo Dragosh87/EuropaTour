@@ -5,6 +5,13 @@
     text-align: center;
 }
 
+.title_of_page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .Navbar{
   text-align: center;
 }
