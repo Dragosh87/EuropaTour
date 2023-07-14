@@ -4,6 +4,7 @@ import AustriaPage from './Countries/AustriaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
 import LoginPage from './LoginPage';
+import RegistrationPage from './RegistrationPage';
 
 
 
@@ -37,7 +38,11 @@ const routes = createBrowserRouter([
     element: <LoginPage/>,
     exact: true
   },
- 
+  {
+    path: '/register',
+    element: <RegistrationPage/>,
+    exact: true
+  },
  
   // Alte rute
 ]);
