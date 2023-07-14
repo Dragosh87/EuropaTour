@@ -1,6 +1,5 @@
 import React from 'react';
 import './Context.css';
-import { ReviewBar } from './barReview';
 
 function CentralContext() {
   return (

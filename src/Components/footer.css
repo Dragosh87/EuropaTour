@@ -1,0 +1,29 @@
+.icons {
+    list-style-type:none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.icons_facebook {
+    list-style-type:none;
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    align-items: center;
+    background-color: #f6ebe5;
+
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    align-items: center;
+}
