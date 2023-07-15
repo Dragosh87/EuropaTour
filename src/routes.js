@@ -24,6 +24,11 @@ const routes = createBrowserRouter([
     exact: true
   },
   {
+    path: '/austria',
+    element: <AustriaPage/>,
+    exact: true
+  },
+  {
     path: '/italy',
     element: <ItalyPage/>,
     exact: true
