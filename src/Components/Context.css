@@ -81,6 +81,9 @@
     margin-top: 60px;
     padding: 10px;
     background-color: #f2d9cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .europEst {
