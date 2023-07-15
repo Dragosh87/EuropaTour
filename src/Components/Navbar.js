@@ -21,10 +21,12 @@ function Navbar() {
               <li className="dropdown_item">France</li>
               <li className="dropdown_item">Greece</li>
               <li className="dropdown_item">Iceland</li>
-              <li className="dropdown_item">Italy</li>
-              <li className="dropdown_item">Malta</li>
-              <li className="dropdown_item">Romania</li>
-              <li className="dropdown_item">Spain</li>
+              <li className="dropdown_item"><a href='/italy' target='_blank'>Italy</a></li>
+              <li className="dropdown_item"><a href='/malta' target='_blank'>Malta</a></li>
+              <li className="dropdown_item"><a href='/romania' target='_blank'>Romania</a></li>
+              <li className="dropdown_item"><a href='/spain' target='_blank'>Spain</a></li>
+              <li className="dropdown_item"><a href='/moldova' target='_blank'>Moldova</a></li>
+              <li className="dropdown_item"><a href='/turkey' target='_blank'>Turkey</a></li>
             </ul>
           </li>
           <li className="item"><a href="/tips" target="_blank">TRAVEL TIPS</a></li>
@@ -39,7 +41,7 @@ function Navbar() {
         </ul>
       </nav>
       <div className="title_of_page">
-      <img className="w-24 h-24" src="https://media.istockphoto.com/id/1199315910/vector/europe-union-vector-star-icon-european-union-flag-symbol-euro-icon-vector.jpg?s=612x612&w=0&k=20&c=z7wwiYq3XAwHedcqGJfcWZWk3mXJpKeacRjtCNhw13Q=" alt="logoEuropa" width="200" height="200"></img>
+      <img src="https://media.istockphoto.com/id/1199315910/vector/europe-union-vector-star-icon-european-union-flag-symbol-euro-icon-vector.jpg?s=612x612&w=0&k=20&c=z7wwiYq3XAwHedcqGJfcWZWk3mXJpKeacRjtCNhw13Q=" alt="logoEuropa" width="200" height="200"></img>
       <h1 className='header'>Europe Travel Guide</h1>
       </div>
 
