@@ -107,6 +107,7 @@ function ItalyPage() {
                <img className='landscapes' src='https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F593%2F2649_pasta-01.jpg' alt= "img"></img>
                <img className='landscapes' src='https://img.itinari.com/countries/it-italy.jpg?ch=DPR&dpr=2.625&w=1600&s=4e578ae84cb6dbb013ecea44eba0bad9' alt= "img"></img>
             <p className='info_item'><span style={{fontWeight: 'bold'}}>10.Nature and Outdoor Activities:</span> Italy offers diverse natural landscapes and outdoor activities. From hiking in the Dolomites to exploring the stunning coastline of Cinque Terre, or enjoying water sports on Lake Como, visitors can experience breathtaking mountains, picturesque lakes, and beautiful Mediterranean beaches.</p>
+              
               </div>
           </div>
       </div>

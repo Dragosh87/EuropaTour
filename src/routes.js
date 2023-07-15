@@ -23,11 +23,11 @@ const routes = createBrowserRouter([
     element: <AlbaniaPage/>,
     exact: true
   },
-  {
-    path: '/austria',
-    element: <AustriaPage/>,
-    exact: true
-  },
+  // {
+  //   path: '/austria',
+  //   element: <AustriaPage/>,
+  //   exact: true
+  // },
   {
     path: '/italy',
     element: <ItalyPage/>,
