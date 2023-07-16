@@ -56,7 +56,7 @@ const routes = createBrowserRouter([
     exact: true
   },
  
-  // Alte rute
+  
 ]);
 
 export default routes;
