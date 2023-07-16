@@ -7,6 +7,8 @@ import CentralContext from './Components/CentralСontext';
 import { ReviewBar } from './Components/barReview';
 import LoginForm from './LoginForm';
 import ModificariForm from './ModificariForm';
+import { Footer } from './Components/footer';
+
 
 
 function HomePage() {
@@ -31,6 +33,9 @@ function HomePage() {
       </div> */}
       <div className='review'>
         <ReviewBar />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
     </>

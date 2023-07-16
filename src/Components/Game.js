@@ -71,17 +71,17 @@ function Game() {
 
   return (
     <div className="game-container mx-auto my-4 px-6 py-4 bg-gray-100 border border-gray-300 rounded">
-      <h3 className="text-h3">Game: Choose the correct capital 🎯</h3>
+       <h3 class="text-2xl text-center mb-6">Game: Pick the correct capital 🎯</h3>
       {randomCountry && (
         <div>
-          <h4 className="space-y-2">Country: {randomCountry.name}</h4>
+           <h3 class="text-2xl text-center mb-6">Country: {randomCountry.name}</h3>
           <div className="grid grid-cols-2 gap-4">
             {options.map((capital, index) => (
               <button
                 key={index}
                 onClick={() => handleOptionSelect(capital)}
                 className="px-4 py-2 bg-ffeddb text-edcdbb rounded hover:bg-e3b7a0 hover:text-white focus:outline-none my-2 px-2 py-1"
-                style={{ backgroundColor: '#EDCDBB' }}
+                style={{ backgroundColor: '#e2bea2' }}
               >
                 {capital}
               </button>
@@ -90,9 +90,10 @@ function Game() {
           <p className={`mt-4 ${message.startsWith('Bravo') ? 'text-green-500' : 'text-red-500'}`}>{message}</p>
           <button
             onClick={handleNewGame}
-            className="mt-4 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 focus:outline-none"
+            className="px-4 py-2 bg-ffeddb text-edcdbb rounded hover:bg-e3b7a0 hover:text-white focus:outline-none my-2 px-2 py-1"
+            style={{ backgroundColor: '#BF9270' }}
           >
-            Joc Nou
+            New game
           </button>
         </div>
       )}

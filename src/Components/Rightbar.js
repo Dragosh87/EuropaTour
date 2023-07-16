@@ -116,7 +116,7 @@ function Rightbar() {
         alt="GIF"
         style={{ width: '360px', height: 'auto', margin: '00px' }}
       />
-      <h3 className='text-h3'>Explore the countries of Europe and discover interesting information</h3>
+      <h3 class="text-2xl text-center mb-6">Explore the countries of Europe and discover interesting information</h3>
 
       <div className="ChooseCountry">
         <select

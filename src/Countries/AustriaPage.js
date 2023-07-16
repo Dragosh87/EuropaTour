@@ -1,12 +1,7 @@
 import React from 'react';
+import './Countries.css';
+import Navbar from '../Components/Navbar';
 
-function AustriaPage() {
-  return (
-    <div>
-      <h2>Informații despre Austria</h2>
-      {/* Adăugați conținutul specific paginii Albania aici */}
-    </div>
-  );
+export default function AustriaPage() {
+  
 }
-
-export default AustriaPage;
