@@ -1,5 +1,4 @@
 .nav_bar{
-    background-color: #f6ebe5;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -13,7 +12,8 @@
 }
 
 .Navbar{
-  text-align: center;
+    background-color: #f6ebe5;
+    text-align: center;
 }
 
 
@@ -23,7 +23,7 @@
 }
 
 
-.header{
+.title_header{
     font-family: subtitle;
     font-size:150px;
     text-align: center;
@@ -34,7 +34,7 @@
     font-family: fontText;
     list-style-type: none;
     display: inline-block;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .item, a, .item1 {
