@@ -5,9 +5,6 @@ import Home from './HomePage';
 import TipsPage from './TipsPage';
 import LoginPage from './LoginPage';
 import RegistrationPage from './RegistrationPage';
-
-
-
 import {
   createBrowserRouter,
 } from "react-router-dom";
