@@ -16,20 +16,6 @@ function Navbar() {
             </div>
             <ul className="absolute hidden transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
                 <li className="item"><Link to="/">HOME</Link></li>
-                <ul className="z-50 dropdown">
-              <li className="dropdown_item"><a href='/albania'>Albania</a></li>
-              <li className="dropdown_item">Austria</li>
-              <li className="dropdown_item">Czech Republic</li>
-              <li className="dropdown_item">France</li>
-              <li className="dropdown_item">Greece</li>
-              <li className="dropdown_item">Iceland</li>
-              <li className="dropdown_item"><a href='/italy'>Italy</a></li>
-              <li className="dropdown_item"><a href='/malta'>Malta</a></li>
-              <li className="dropdown_item"><a href='/romania'>Romania</a></li>
-              <li className="dropdown_item"><a href='/spain'>Spain</a></li>
-              <li className="dropdown_item"><a href='/moldova'>Moldova</a></li>
-              <li className="dropdown_item"><a href='/turkey'>Turkey</a></li>
-            </ul>
                 <li className="item">
                     DESTINATIONS
                     <ul className="z-50 dropdown">
@@ -58,7 +44,6 @@ function Navbar() {
                 </li>
             </ul>
             <UserMenu/>
-
         </nav>
 
 
