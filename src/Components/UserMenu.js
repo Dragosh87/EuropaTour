@@ -27,7 +27,7 @@ export default function UserMenu() {
                 <Menu>
                     <MenuHandler>
                   <span
-                      className="lg:inline-block lg:ml-auto lg:mr-3 inline-block w-12 h-12 overflow-hidden border-2 rounded-full  ">
+                      className="inline-block w-12 h-12 overflow-hidden border-2 rounded-full lg:inline-block lg:ml-auto lg:mr-3 ">
                     <svg className="w-full text-orange-300 h-ful0l hover:text-orange-700" fill="currentColor"
                          viewBox="0 0 24 24">
                       <path
@@ -36,7 +36,7 @@ export default function UserMenu() {
                   </span>
                     </MenuHandler>
                     <MenuList>
-                        <div className="font-bold ml-auto text text-center">{getItem().user.email}</div>
+                        <div className="ml-auto font-bold text-center text">{getItem().user.username}</div>
                         <hr className="my-2 border-blue-gray-50"/>
                         <MenuItem className="flex items-center gap-2 " onClick={() => {
                             setItem(null)
@@ -52,10 +52,10 @@ export default function UserMenu() {
                 :
                 <>
                     <Link
-                        className="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
+                        className="hidden px-6 py-2 text-sm font-bold text-gray-900 transition duration-200 lg:inline-block lg:ml-auto lg:mr-3 bg-gray-50 hover:bg-gray-100 rounded-xl"
                         to="/login">Login</Link>
                     <Link
-                        className="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
+                        className="hidden px-6 py-2 text-sm font-bold text-white transition duration-200 bg-blue-500 lg:inline-block hover:bg-blue-600 rounded-xl"
                         to="/register">Create Account</Link>
                 </>
 
