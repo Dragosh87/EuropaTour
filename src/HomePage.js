@@ -24,14 +24,7 @@ function HomePage() {
         <CentralContext />
         <Rightbar />
       </div>
-{/* 
-      <div>
-        <h1>Autentificare</h1>
-        <LoginForm />
 
-        <h1>Modificări în backend</h1>
-        <ModificariForm />
-      </div> */}
       <div className='review'>
         <ReviewBar />
       </div>

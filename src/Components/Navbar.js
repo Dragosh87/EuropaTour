@@ -6,9 +6,7 @@ import {Link} from "react-router-dom";
 function Navbar() {
   return (
     <div className="Navbar">
-      <div className="grid items-center float-right">
-        <UserMenu />
-      </div>
+     
       <nav className="nav_bar">
         <ul>
           <li className="item"><a href='/'>HOME</a></li>
@@ -30,9 +28,20 @@ function Navbar() {
               </ul>
               </li>
               
+              <li className="item"><a href="/tips" target="_blank">TRAVEL TIPS</a></li>
+          <li className="item1">
+            <a href='mailto: eurotravelguide2023@gmail.com'>
+              CONTACT</a>
+            <ul className="dropdown1">
+                <li className="dropdown_item1">Email: eurotravelguide2023@gmail.com</li>
+                <li className="dropdown_item1">Contact: 0232 080 332</li>
             </ul>
-            <UserMenu/>
+            </li>
+            
+        </ul>
+        <UserMenu/>
         </nav>
+        
 </div>
 
     );
