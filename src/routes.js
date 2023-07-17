@@ -1,5 +1,6 @@
 // import CentralContext from './Components/CentralContext';
 import AlbaniaPage from './Countries/AlbaniaPage';
+import AustriaPage from './Countries/AustriaPage';
 import ItalyPage from './Countries/ItalyPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';

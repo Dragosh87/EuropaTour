@@ -1,6 +1,7 @@
 import React from 'react';
 import './Countries.css';
 import Navbar from '../Components/Navbar';
+import { Footer } from '../Components/footer';
 
 function AlbaniaPage() {
   return (
@@ -109,6 +110,7 @@ function AlbaniaPage() {
               </div>
           </div>
       </div>
+      <div><Footer /></div>
     </div>
   );
 }
