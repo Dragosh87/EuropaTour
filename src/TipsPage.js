@@ -572,7 +572,7 @@ export default function TipsPage() {
         id="safetySection"
         className="hidden transition-all duration-300 ease-in-out delay-150 bg-white section"
       >
-        <div className="title">
+        <div className="heading">
           <h1>1. Stay Aware</h1>
         </div>
         <div className="para">
@@ -582,7 +582,7 @@ export default function TipsPage() {
             potential theft or scams.
           </p>
         </div>
-        <div className="title">
+        <div className="heading">
           <h1>2. Stay Informed</h1>
         </div>
         <div className="para">
@@ -592,7 +592,7 @@ export default function TipsPage() {
             or consulate for the latest information and recommendations.
           </p>
         </div>
-        <div className="title">
+        <div className="heading">
           <h1>3. Travel Insurance</h1>
         </div>
         <div className="para">
@@ -602,7 +602,7 @@ export default function TipsPage() {
             an extra layer of protection and peace of mind during your travels.
           </p>
         </div>
-        <div className="title">
+        <div className="heading">
           <h1>4. Respect Local Customs</h1>
         </div>
         <div className="para">
@@ -612,7 +612,7 @@ export default function TipsPage() {
             unintentional offenses and show respect to the local population.
           </p>
         </div>
-        <div className="title">
+        <div className="heading">
           <h1>5. Beware of Pickpockets</h1>
         </div>
         <div className="para">
@@ -623,7 +623,7 @@ export default function TipsPage() {
           </p>
         </div>
 
-        <div className="title">
+        <div className="heading">
           <h1>6. Secure Your Belongings</h1>
         </div>
         <div className="para">
@@ -633,7 +633,7 @@ export default function TipsPage() {
             identification, in a safe place.
           </p>
         </div>
-        <div className="title">
+        <div className="heading">
           <h1>7. Register with Your Embassy</h1>
         </div>
         <div className="para">
@@ -644,7 +644,7 @@ export default function TipsPage() {
             travels.
           </p>
         </div>
-        <div className="title">
+        <div className="heading">
           <h1>8. Emergency Contact Information</h1>
         </div>
         <div className="para">

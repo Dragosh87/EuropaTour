@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  .title {
+  .heading {
     @apply flex justify-start pt-8 pb-3 mx-auto text-3xl font-bold text-brown-600 max-w-7xl sm:px-6 lg:px-8
   }
   .para {

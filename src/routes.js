@@ -2,13 +2,12 @@
 import AlbaniaPage from './Countries/AlbaniaPage';
 import AustriaPage from './Countries/AustriaPage';
 import ItalyPage from './Countries/ItalyPage';
+import MaltaPage from './Countries/MaltaPage';
+import RomaniaPage from './Countries/RomaniaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
 import LoginPage from './LoginPage';
 import RegistrationPage from './RegistrationPage';
-
-
-
 import {
   createBrowserRouter,
 } from "react-router-dom";
@@ -35,6 +34,16 @@ const routes = createBrowserRouter([
     exact: true
   },
   {
+    path: '/malta',
+    element: <MaltaPage/>,
+    exact: true
+  },
+  {
+    path: '/romania',
+    element: <RomaniaPage/>,
+    exact: true
+  },
+  {
     path: '/tips',
     element: <TipsPage/>,
     exact: true
@@ -50,7 +59,7 @@ const routes = createBrowserRouter([
     exact: true
   },
  
-  // Alte rute
+  
 ]);
 
 export default routes;

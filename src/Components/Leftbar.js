@@ -13,7 +13,7 @@ function Leftbar() {
   );
 
   const europeanCountries = Country.getAllCountries().filter((country) =>
-    country.timezones.find((timezone) => timezone.zoneName.includes("Europe"))
+    country.timezones.find((timezone) => timezone.zoneName.includes("Europe")) && City.getCitiesOfCountry(country.isoCode).length > 0
   );
 
   return (

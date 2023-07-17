@@ -1,22 +1,20 @@
-import React from 'react';
-import './App.css';
-import HomePage from './HomePage';
+import React from "react";
+import {ThemeProvider} from "@material-tailwind/react";
+import { LocalProvider } from "./Context";
+import {RouterProvider} from "react-router-dom";
+import router from "./routes";
 
-function App() {
-  return (
-    <div className="App" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
-      <Navbar />
-      <div className="Content" style={{ flex: '1', display: 'flex' }}>
-        <Leftbar />
-        <CentralContext />
-        <Rightbar />
-      </div>
-      <div className='review'>
-      {/* <ReviewBar /> */}
-      </div>
-    </div>
-  );
+export default function App() {
+    const [user, setUser] = React.useState(false)
+
+    return (
+        <React.StrictMode>
+            <ThemeProvider>
+                <LocalProvider>
+                    <RouterProvider router={router}/>
+                </LocalProvider>
+            </ThemeProvider>
+        </React.StrictMode>
+    )
+
 }
-
-export default App;
-

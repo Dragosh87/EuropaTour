@@ -105,7 +105,7 @@ function AlbaniaPage() {
             <p className='info_item'><span style={{fontWeight: 'bold'}}>8.Economy:</span> Albania has been undergoing a process of economic development and reforms since the 1990s. Its economy is primarily based on services, agriculture, and industry. The country has made progress in attracting foreign investment and has seen growth in sectors such as tourism and energy.</p>
             <p className='info_item'><span style={{fontWeight: 'bold'}}>9.Cuisine:</span> Albanian cuisine is influenced by Mediterranean and Balkan culinary traditions. Popular dishes include byrek (a savory pastry), tavë kosi (baked lamb with yogurt), qofte (meatballs), and various fresh seafood dishes. Dairy products, olives, and vegetables are also common in Albanian cuisine.</p>
                <img className='landscapes' src='https://albaniatourguide.com/wp-content/uploads/2021/03/permet-7-shutterstock-large.jpg' alt= "img"></img>
-               <img className='landscapes' src='https://images.squarespace-cdn.com/content/v1/57322ef32fe131e30c4a3f5d/1513525603271-P26NYXXV3S25QILCY2QJ/ksamilchair.jpg' alt= "img"></img>
+               <img className='landscapes' src='https://images.squarespace-cdn.com/content/v1/57322ef32fe131e30c4a3f5d/1513525603271-P26NYXXV3S25QILCY2QJ/ksamilchair.jpg' ></img>
             <p className='info_item'><span style={{fontWeight: 'bold'}}>10.Nature and Outdoor Activities:</span> Albania is known for its natural beauty. The country offers opportunities for outdoor activities such as hiking, trekking, and camping in its national parks and mountain ranges. The Albanian Alps, Llogara National Park, and Butrint National Park are some popular destinations for nature enthusiasts.</p>
               </div>
           </div>
