@@ -13,9 +13,9 @@ textarea{
 
 .submit-button{
     display: flex;
-    justify-content: flex-end;
     width: 30px;
     height: 30px;
+
 }
 
 textarea:focus {
