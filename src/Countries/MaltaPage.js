@@ -1,6 +1,7 @@
 import React from 'react';
 import './Countries.css';
 import Navbar from '../Components/Navbar';
+import { Footer } from '../Components/footer';
 
 function MaltaPage() {
   return (
@@ -111,6 +112,7 @@ function MaltaPage() {
               </div>
           </div>
       </div>
+      <div className='footerCountry'><Footer/></div>
     </div>
   );
 }
