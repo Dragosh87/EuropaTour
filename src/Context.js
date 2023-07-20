@@ -7,10 +7,10 @@ export const LocalProvider = ({ children }) => {
     if (item === null) {
       window.localStorage.removeItem("local")
     } else {
-      window.localStorage.setItem("local", JSON.stringify(item));
+      window.localStorage.setItem("local", JSON.stringify(item ? item : {}));
     }
   };
-  const getItem = (item) => {
+  const getItem = () => {
     return JSON.parse(window.localStorage.getItem("local")) || [];
   };
 

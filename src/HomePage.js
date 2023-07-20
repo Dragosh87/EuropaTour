@@ -4,11 +4,13 @@ import Navbar from './Components/Navbar';
 import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
-import { ReviewBar } from './Components/barReview';
+
 import LoginForm from './LoginForm';
 import ModificariForm from './ModificariForm';
 import { Footer } from './Components/footer';
 import Title from "./Components/Title";
+import CommentBox from './Components/coments/CommentBox';
+
 
 
 
@@ -24,17 +26,7 @@ function HomePage() {
         <CentralContext />
         <Rightbar />
       </div>
-{/* 
-      <div>
-        <h1>Autentificare</h1>
-        <LoginForm />
-
-        <h1>Modificări în backend</h1>
-        <ModificariForm />
-      </div> */}
-      <div className='review'>
-        <ReviewBar />
-      </div>
+      <CommentBox pageId="home-page"/>
       <div>
         <Footer />
       </div>
