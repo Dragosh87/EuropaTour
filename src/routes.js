@@ -1,8 +1,15 @@
 // import CentralContext from './Components/CentralContext';
 import AlbaniaPage from './Countries/AlbaniaPage';
+import FrancePage from './Countries/FrancePage';
+import IcelandPage from './Countries/IcelandPage'
+import GreecePage from './Countries/GreecePage';
 import AustriaPage from './Countries/AustriaPage';
+import CzechRepPage from './Countries/CzechRepPage';
 import ItalyPage from './Countries/ItalyPage';
 import MaltaPage from './Countries/MaltaPage';
+import RomaniaPage from './Countries/RomaniaPage';
+import SpainPage from './Countries/SpainPage';
+import MoldovaPage from './Countries/MoldovaPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
 import LoginPage from './LoginPage';
@@ -28,6 +35,11 @@ const routes = createBrowserRouter([
     exact: true
   },
   {
+    path: '/czech',
+    element: <CzechRepPage/>,
+    exact: true
+  },
+  {
     path: '/italy',
     element: <ItalyPage/>,
     exact: true
@@ -37,6 +49,21 @@ const routes = createBrowserRouter([
     element: <MaltaPage/>,
     exact: true
   },
+  {
+    path: '/romania',
+    element: <RomaniaPage/>,
+    exact: true
+  },
+  {
+    path: '/spain',
+    element: <SpainPage/>,
+    exact: true
+  },
+  {
+    path: '/moldova',
+    element: <MoldovaPage/>,
+    exact: true
+  },  
   {
     path: '/tips',
     element: <TipsPage/>,
@@ -52,8 +79,23 @@ const routes = createBrowserRouter([
     element: <RegistrationPage/>,
     exact: true
   },
+  {
+    path: '/france',
+    element: <FrancePage/>,
+    exact: true
+  },
+  {
+    path: '/greece',
+    element: <GreecePage/>,
+    exact: true
+  },
+  {
+    path: '/iceland',
+    element: <IcelandPage/>,
+    exact: true
+  },
  
-  // Alte rute
+  
 ]);
 
 export default routes;

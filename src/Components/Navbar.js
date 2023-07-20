@@ -2,7 +2,6 @@ import "./Navbar.css";
 import React, {useContext} from "react";
 import UserMenu from './UserMenu'
 import {Link} from "react-router-dom";
-
 function Navbar() {
     return (
         <nav className="relative flex items-center justify-between px-4 py-4 bg-white Navbar">
@@ -21,10 +20,10 @@ function Navbar() {
                     <ul className="z-50 dropdown">
                         <li className="dropdown_item"><Link to="/albania">Albania</Link></li>
                         <li className="dropdown_item"><Link to="/austria">Austria</Link></li>
-                        <li className="dropdown_item">Czech Republic</li>
-                        <li className="dropdown_item">France</li>
-                        <li className="dropdown_item">Greece</li>
-                        <li className="dropdown_item">Iceland</li>
+                        <li className="dropdown_item"><Link to='/czech'>Czech Republic</Link></li>
+                        <li className="dropdown_item"><Link to='/france'>France</Link></li>
+                        <li className="dropdown_item"><Link to='/greece'>Greece</Link></li>
+                        <li className="dropdown_item"><Link to='/iceland'>Iceland</Link></li>
                         <li className="dropdown_item"><Link to='/italy'>Italy</Link></li>
                         <li className="dropdown_item"><Link to='/malta'>Malta</Link></li>
                         <li className="dropdown_item"><Link to='/romania'>Romania</Link></li>
@@ -45,9 +44,6 @@ function Navbar() {
             </ul>
             <UserMenu/>
         </nav>
-
-
     );
 }
-
 export default Navbar;

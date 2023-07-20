@@ -80,6 +80,7 @@ export function ReviewBar() {
           ))}
         </ul>
       </div>
+      
     </div>
   );
 }
