@@ -10,6 +10,7 @@ import MaltaPage from './Countries/MaltaPage';
 import RomaniaPage from './Countries/RomaniaPage';
 import SpainPage from './Countries/SpainPage';
 import MoldovaPage from './Countries/MoldovaPage';
+import TurkeyPage from './Countries/TurkeyPage';
 import Home from './HomePage';
 import TipsPage from './TipsPage';
 import LoginPage from './LoginPage';
@@ -64,6 +65,11 @@ const routes = createBrowserRouter([
     element: <MoldovaPage/>,
     exact: true
   },  
+  {
+    path: '/turkey',
+    element: <TurkeyPage/>,
+    exact: true
+  }, 
   {
     path: '/tips',
     element: <TipsPage/>,

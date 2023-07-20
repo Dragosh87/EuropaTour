@@ -10,7 +10,7 @@ export default function FrancePage() {
           <h3 className='title'>France Travel Guide</h3>
         </div>
         <div className='content_of_cities'>
-          <img className='imageHeader' src='https://destepti.ro/wp-content/uploads/2016/08/Paris11-696x464.jpg'></img>
+          <img className='imageHeader' src='https://destepti.ro/wp-content/uploads/2016/08/Paris11-696x464.jpg' alt="img"></img>
           <h3 className='title_of_list'>Pick a destination</h3>
           <div className='first_part'>
             <svg width="318" height="32" viewBox="0 0 318 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@ export default function FrancePage() {
               </g>
               <defs>
                 <filter id="filter0_d_3_5" x="0" y="0.954058" width="317.5" height="30.0919" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                   <feOffset dy="4" />
                   <feGaussianBlur stdDeviation="2" />
@@ -45,7 +45,7 @@ export default function FrancePage() {
               </g>
               <defs>
                 <filter id="filter0_d_3_6" x="0.499992" y="0.95406" width="334.5" height="30.0919" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                   <feOffset dy="4" />
                   <feGaussianBlur stdDeviation="2" />
@@ -67,7 +67,7 @@ export default function FrancePage() {
   </g>
   <defs>
   <filter id="filter0_d_5_3" x="0.593994" y="0" width="108.812" height="98.4509" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+  <feFlood floodOpacity="0" result="BackgroundImageFix"/>
   <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
   <feOffset dy="4"/>
   <feGaussianBlur stdDeviation="2"/>

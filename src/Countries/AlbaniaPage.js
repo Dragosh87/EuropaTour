@@ -20,7 +20,7 @@ function AlbaniaPage() {
             </g>
             <defs>
               <filter id="filter0_d_3_5" x="0" y="0.954058" width="317.5" height="30.0919" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                 <feOffset dy="4" />
                 <feGaussianBlur stdDeviation="2" />
@@ -46,7 +46,7 @@ function AlbaniaPage() {
             </g>
             <defs>
               <filter id="filter0_d_3_6" x="0.499992" y="0.95406" width="334.5" height="30.0919" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                 <feOffset dy="4" />
                 <feGaussianBlur stdDeviation="2" />
@@ -68,7 +68,7 @@ function AlbaniaPage() {
 </g>
 <defs>
 <filter id="filter0_d_5_3" x="0.593994" y="0" width="108.812" height="98.4509" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
@@ -105,7 +105,7 @@ function AlbaniaPage() {
             <p className='info_item'><span style={{fontWeight: 'bold'}}>8.Economy:</span> Albania has been undergoing a process of economic development and reforms since the 1990s. Its economy is primarily based on services, agriculture, and industry. The country has made progress in attracting foreign investment and has seen growth in sectors such as tourism and energy.</p>
             <p className='info_item'><span style={{fontWeight: 'bold'}}>9.Cuisine:</span> Albanian cuisine is influenced by Mediterranean and Balkan culinary traditions. Popular dishes include byrek (a savory pastry), tavë kosi (baked lamb with yogurt), qofte (meatballs), and various fresh seafood dishes. Dairy products, olives, and vegetables are also common in Albanian cuisine.</p>
                <img className='landscapes' src='https://albaniatourguide.com/wp-content/uploads/2021/03/permet-7-shutterstock-large.jpg' alt= "img"></img>
-               <img className='landscapes' src='https://images.squarespace-cdn.com/content/v1/57322ef32fe131e30c4a3f5d/1513525603271-P26NYXXV3S25QILCY2QJ/ksamilchair.jpg' ></img>
+               <img className='landscapes' src='https://images.squarespace-cdn.com/content/v1/57322ef32fe131e30c4a3f5d/1513525603271-P26NYXXV3S25QILCY2QJ/ksamilchair.jpg' alt="img" ></img>
             <p className='info_item'><span style={{fontWeight: 'bold'}}>10.Nature and Outdoor Activities:</span> Albania is known for its natural beauty. The country offers opportunities for outdoor activities such as hiking, trekking, and camping in its national parks and mountain ranges. The Albanian Alps, Llogara National Park, and Butrint National Park are some popular destinations for nature enthusiasts.</p>
               </div>
           </div>
