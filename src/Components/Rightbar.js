@@ -155,8 +155,8 @@ function Rightbar() {
                 <div className='youtube'>
                 {showYouTubePlayer && selectedCountry.youtubeLink && (
                   <iframe
-                    width="375"
-                    height="211"
+                    width="356"
+                    height="200"
                     src={selectedCountry.youtubeLink}
                     title="YouTube Video"
                     frameBorder="0"

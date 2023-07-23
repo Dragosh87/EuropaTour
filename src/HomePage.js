@@ -5,8 +5,6 @@ import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
 import { ReviewBar } from './Components/barReview';
-import LoginForm from './LoginForm';
-import ModificariForm from './ModificariForm';
 import { Footer } from './Components/footer';
 import Title from "./Components/Title";
 

@@ -17,7 +17,11 @@ function Leftbar() {
   );
 
   return (
-    <div className="Leftbar " style={{ flex: "0 0 20%" }}>
+    
+    <div className="Leftbar " style={{ flex: "0 0 20%",  }}>
+      
+      <div className="Leftfixed" style={{ position: "fixed", top: "7%", left: 0, bottom: "20%", width: "20%" }}>
+      
       <CountryDropdown
         id={"country-selector"}
         open={countryIsOpen}
@@ -50,6 +54,9 @@ function Leftbar() {
           city={city.name}
         />
       )}
+     
+    </div>
+    
     </div>
   );
 }

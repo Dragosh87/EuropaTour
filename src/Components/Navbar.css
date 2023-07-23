@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
 
 .title_of_page{
   display: flex;
+  
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -14,6 +16,9 @@
 .Navbar{
     background-color: #f6ebe5;
     text-align: center;
+    border-bottom: 2px solid #BF9270;
+   
+    
 }
 
 
@@ -28,6 +33,7 @@
 .title_header{
     font-family: subtitle;
     font-size:150px;
+    margin-top: 80px;
     text-align: center;
    
 }
