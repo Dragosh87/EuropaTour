@@ -2,6 +2,7 @@ import React from 'react';
 import './Countries.css';
 import Navbar from '../Components/Navbar';
 import { Footer } from '../Components/footer';
+import CommentBox from "../Components/coments/CommentBox";
 export default function GreecePage() {
   return (
     <div className='pageContainer'>
@@ -109,7 +110,8 @@ export default function GreecePage() {
           </div>
         </div>
       </div>
-      <div className='footerCountry'><Footer /></div>
+      <CommentBox pageId="greece"/>
+      <div><Footer /></div>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './Countries.css';
 import Navbar from '../Components/Navbar';
 import { Footer } from '../Components/footer';
+import CommentBox from "../Components/coments/CommentBox";
 
 function SpainPage() {
   return (
@@ -112,7 +113,8 @@ function SpainPage() {
           </div>
         </div>
       </div>
-      <div className='footerCountry'><Footer /></div>
+      <CommentBox pageId="spain"/>
+      <div><Footer /></div>
     </div>
   );
 }

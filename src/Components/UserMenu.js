@@ -3,15 +3,10 @@ import {
     MenuHandler,
     MenuList,
     MenuItem,
-    Avatar,
     Typography,
 } from "@material-tailwind/react";
 import {
-    Cog6ToothIcon,
     PowerIcon,
-    InboxArrowDownIcon,
-    UserCircleIcon,
-    LifebuoyIcon,
 } from "@heroicons/react/24/outline";
 import React, {useContext} from "react";
 import {Link} from "react-router-dom";
@@ -38,7 +33,7 @@ export default function UserMenu() {
                     <MenuList>
                         <div className="ml-auto font-bold text-center text">{getItem().user.username}</div>
                         <hr className="my-2 border-blue-gray-50"/>
-                        <MenuItem className="flex items-center gap-2 " onClick={() => {
+                        <MenuItem className="flex items-center gap-2 "onClick={() => {
                             setItem(null)
                             window.location = '/'
                         }}>
