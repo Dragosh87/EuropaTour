@@ -116,7 +116,18 @@ function Rightbar() {
         alt="GIF"
         style={{ width: '360px', height: 'auto', margin: '00px' }}
       />
-      <h3 class="text-2xl text-center mb-6">Explore the countries of Europe and discover interesting information</h3>
+     
+
+      <h3
+        className="text-2xl text-center mb-6"
+        style={{
+          border: "2px solid #BF9270", // Adaugă un border de 2px solid negru
+          margin: "10px", // Adaugă un margin de 10px
+          borderRadius: "10px",
+        }}
+      >
+        Explore the countries of Europe and discover interesting information
+      </h3>
 
       <div className="ChooseCountry">
         <select
@@ -170,13 +181,13 @@ function Rightbar() {
           </div>
         </div>
       )}
-      <hr className="separator" />
+      
       
       <div className="Game">
         
         <Game />
       </div>
-      <hr className="separator" />
+      
 
       
     </div>
