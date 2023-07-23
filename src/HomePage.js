@@ -26,7 +26,9 @@ function HomePage() {
         <CentralContext />
         <Rightbar />
       </div>
-      <CommentBox pageId="home-page"/>
+      <div className="w-full">
+        <CommentBox pageId="home-page"/>
+      </div>
       <div>
         <Footer />
       </div>

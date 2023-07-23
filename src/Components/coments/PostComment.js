@@ -2,7 +2,7 @@
 import React, {useContext, useState} from "react";
 import {LocalContext} from '../../Context'
 
-export default function PostComment({pageId}) {
+export default function PostComment({pageId, comments, onPostComment}) {
   const [content, setContent] = useState("");
   const [inProgress, setInProgress] = useState(null);
   const [setItem, getItem] = useContext(LocalContext);
@@ -28,9 +28,8 @@ export default function PostComment({pageId}) {
     );
     setInProgress(false)
     if (response.status === 200) {
-        
-    } else {
-
+        setContent("")
+        onPostComment()
     }
   }
   
@@ -44,7 +43,7 @@ export default function PostComment({pageId}) {
             </h2>
           </div>
           <div className="mb-6">
-            <div className="px-4 py-2 mb-4 bg-white border border-gray-200 rounded-lg rounded-t-lg dark:bg-gray-800 dark:border-gray-700">
+            <div className="px-4 py-2 mb-4 bg-white border border-gray-500 rounded-lg rounded-t-lg dark:bg-gray-800 dark:border-gray-700">
               <label for="comment" className="sr-only">
                 Your comment
               </label>
