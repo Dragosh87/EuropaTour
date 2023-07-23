@@ -70,11 +70,11 @@ function Game() {
   };
 
   return (
-    <div className="game-container mx-auto my-4 px-6 py-4 bg-white border border-gray-300 rounded" style={{border: '2px solid #BF9270', borderRadius: '10px'}}>
-       <h3 className="text-2xl text-center mb-6">Game: Pick the correct capital 🎯</h3>
+    <div className="game-container mx-auto my-4 px-6 py-4 bg-white border border-gray-300 rounded" style={{ border: '2px solid #BF9270', borderRadius: '10px' }}>
+      <h3 className="text-2xl text-center mb-6">Game: Pick the correct capital 🎯</h3>
       {randomCountry && (
         <div>
-           <h3 className="text-2xl text-center mb-6">Country: {randomCountry.name}</h3>
+          <h3 className="text-2xl text-center mb-6">Country: {randomCountry.name}</h3>
           <div className="grid grid-cols-2 gap-4">
             {options.map((capital, index) => (
               <button

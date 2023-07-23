@@ -23,9 +23,8 @@ function Rightbar() {
       })
       .catch((error) => console.log(error));
   }, []);
-
   const getYouTubeLink = (countryName) => {
-      const links = {
+    const links = {
       Romania: 'xcDRvhEW-7g',
       Serbia: 'hlBP5b06_Ok',
       Andorra: 'gFbQ7hXnIvo',
@@ -60,7 +59,7 @@ function Rightbar() {
       Iceland: 'vzSHcyXfNPw',
       'Vatican City': 'dx5reuzkr48',
       Ireland: 'MZO4B1RZU5g',
-      Italy: 'uYFtWVv5F3E', 
+      Italy: 'uYFtWVv5F3E',
       Slovenia: 'lqDMR32jb98',
       Denmark: 'PIfAOPjfIEo',
       Germany: '9T49_LduzpQ',
@@ -80,44 +79,36 @@ function Rightbar() {
       Cyprus: 'zObJmfkgAmo',
       Liechtenstein: 'lga_M0oBmd4'
     };
-  
     if (links[countryName]) {
       return `https://www.youtube.com/embed/${links[countryName]}`;
     } else {
       return null;
     }
   };
-
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
     setShowDetails(false);
     setShowGeolocation(false);
-
     setTimeout(() => {
       setShowDetails(true);
-
       setTimeout(() => {
         setShowGeolocation(true);
         setShowYouTubePlayer(true);
       }, 500);
     }, 500);
   };
-
   const handleOpenGoogleMaps = () => {
     if (selectedCountry && selectedCountry.maps.googleMaps) {
       window.open(selectedCountry.maps.googleMaps, '_blank');
     }
   };
-
   return (
     <div className="Rightbar" style={{ flex: '0 0 20%' }}>
-      <img 
+      <img
         src="https://thumbs.gfycat.com/AgileAcceptableEchidna-size_restricted.gif"
         alt="GIF"
         style={{ width: '360px', height: 'auto', margin: '00px' }}
       />
-     
-
       <h3
         className="text-2xl text-center mb-6"
         style={{
@@ -128,7 +119,6 @@ function Rightbar() {
       >
         Explore the countries of Europe and discover interesting information
       </h3>
-
       <div className="ChooseCountry">
         <select
           value={selectedCountry ? selectedCountry.name.common : ''}
@@ -147,7 +137,6 @@ function Rightbar() {
           ))}
         </select>
       </div>
-
       {selectedCountry && showDetails && (
         <div className="CountryDetails">
           <h4 className='text-h4'>Country flag</h4>
@@ -162,37 +151,29 @@ function Rightbar() {
             {showGeolocation && (
               <>
                 <button className="OpenMapsButton" onClick={handleOpenGoogleMaps}>Open Google Maps</button>
-                
                 <div className='youtube'>
-                {showYouTubePlayer && selectedCountry.youtubeLink && (
-                  <iframe
-                    width="356"
-                    height="200"
-                    src={selectedCountry.youtubeLink}
-                    title="YouTube Video"
-                    frameBorder="0"
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen
-                  ></iframe>
-
-                )}</div>
+                  {showYouTubePlayer && selectedCountry.youtubeLink && (
+                    <iframe
+                      width="356"
+                      height="200"
+                      src={selectedCountry.youtubeLink}
+                      title="YouTube Video"
+                      frameBorder="0"
+                      allow="autoplay; encrypted-media"
+                      allowFullScreen
+                    ></iframe>
+                  )}</div>
               </>
             )}
           </div>
         </div>
       )}
-      
-      
       <div className="Game">
-        
         <Game />
       </div>
-      
-
-      
     </div>
-    
-    
+
+
   );
 }
 

@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import TravelTip from "./Components/tips/TravelTip";
-import "./TipsPage.css";
+import Navbar from "../Navbar";
+import TravelTip from "./TravelTip";
 import { Fragment, useState } from "react";
 
 function showSection(sectionName) {
