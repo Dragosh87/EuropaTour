@@ -15,7 +15,7 @@ export default function Weather({ id, city, lat, lon }) {
   // 3. Create out useEffect function
   useEffect(() => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/onecall?lang=ro&lat=${lat}&lon=${lon}&appid=e203317f0df5474c05874e35b030eda3`
+      `https://api.openweathermap.org/data/2.5/onecall?lang=en&lat=${lat}&lon=${lon}&appid=e203317f0df5474c05874e35b030eda3`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -33,7 +33,11 @@ export default function Weather({ id, city, lat, lon }) {
   }, [lat, lon]);
 
   return (
-    <div className="border-4 m-2 border-background flex flex-col items-center p-8 rounded-md dark:text-gray-100">
+    <div
+    className="m-2 flex flex-col items-center p-8 rounded-md dark:text-gray-100"
+    >
+      
+    
       <div className="text-center">
         <h2 className="text-4xl font-semibold ">{city}</h2>
       </div>
@@ -101,5 +105,6 @@ export default function Weather({ id, city, lat, lon }) {
         </div>
       </div>
     </div>
+    
   );
 }

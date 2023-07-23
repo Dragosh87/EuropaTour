@@ -59,7 +59,7 @@ function Game() {
 
   const handleOptionSelect = (selectedCapital) => {
     if (selectedCapital === randomCountry.capital) {
-      setMessage('Bravo! Correct answer!');
+      setMessage('GREATE! Correct answer!');
     } else {
       setMessage('Wrong answer! Try again.');
     }
@@ -70,11 +70,11 @@ function Game() {
   };
 
   return (
-    <div className="game-container mx-auto my-4 px-6 py-4 bg-gray-100 border border-gray-300 rounded">
-       <h3 class="text-2xl text-center mb-6">Game: Pick the correct capital 🎯</h3>
+    <div className="game-container mx-auto my-4 px-6 py-4 bg-white border border-gray-300 rounded" style={{ border: '2px solid #BF9270', borderRadius: '10px' }}>
+      <h3 className="text-2xl text-center mb-6">Game: Pick the correct capital 🎯</h3>
       {randomCountry && (
         <div>
-           <h3 class="text-2xl text-center mb-6">Country: {randomCountry.name}</h3>
+          <h3 className="text-2xl text-center mb-6">Country: {randomCountry.name}</h3>
           <div className="grid grid-cols-2 gap-4">
             {options.map((capital, index) => (
               <button
@@ -87,7 +87,7 @@ function Game() {
               </button>
             ))}
           </div>
-          <p className={`mt-4 ${message.startsWith('Bravo') ? 'text-green-500' : 'text-red-500'}`}>{message}</p>
+          <p className={`mt-4 ${message.startsWith('GREATE') ? 'text-green-500' : 'text-red-500'}`}>{message}</p>
           <button
             onClick={handleNewGame}
             className="px-4 py-2 bg-ffeddb text-edcdbb rounded hover:bg-e3b7a0 hover:text-white focus:outline-none my-2 px-2 py-1"

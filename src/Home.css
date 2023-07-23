@@ -2,16 +2,9 @@
   text-align: center;
 }
 
-.review{
+.review {
   padding: 7%;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
-
-/* .Content {
-  display: flex;
-  justify-content: center;
-} */
-
-

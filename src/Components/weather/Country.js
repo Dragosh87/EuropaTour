@@ -47,6 +47,12 @@ export default function CountrySelector({
                     aria-labelledby="listbox-label"
                     onClick={onToggle}
                     disabled={disabled}
+                    style={{ // Adaugă stilurile aici
+                        border: '2px solid #BF9270', // Border de 2px solid cu culoarea #BF9270
+                        borderRadius: '10px', // Radius de 10px
+                        backgroundColor: open ? 'white' : 'transparent',
+                        margin: "10px 0 10px 0", // Culoare de fundal albă când dropdown-ul este deschis și transparentă altfel
+                    }}
                 >
           <span className="flex items-center truncate">
             {selectedValue && <img

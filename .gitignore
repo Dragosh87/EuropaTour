@@ -22,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+backend/src/extensions/documentation/documentation/1.0.0/full_documentation.json
+backend/src/extensions/documentation/public/index.html

@@ -50,7 +50,7 @@ export default function UserMenu() {
                         className="hidden px-6 py-2 text-sm font-bold text-gray-900 transition duration-200 lg:inline-block lg:ml-auto lg:mr-3 bg-gray-50 hover:bg-gray-100 rounded-xl"
                         to="/login">Login</Link>
                     <Link
-                        className="hidden px-6 py-2 text-sm font-bold text-white transition duration-200 bg-blue-500 lg:inline-block hover:bg-blue-600 rounded-xl"
+                        className="hidden px-6 py-2 text-sm font-bold text-white transition duration-200 bg-[#BF9270] lg:inline-block hover:bg-[#BF9270] rounded-xl"
                         to="/register">Create Account</Link>
                 </>
 

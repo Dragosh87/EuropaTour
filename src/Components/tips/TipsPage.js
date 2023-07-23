@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import TravelTip from "./Components/tips/TravelTip";
-import CommentBox from "./Components/coments/CommentBox";
-
+import Navbar from "../Navbar";
+import TravelTip from "./TravelTip";
 import { Fragment, useState } from "react";
+import CommentBox from "../coments/CommentBox";
 
 function showSection(sectionName) {
   document
@@ -489,7 +488,7 @@ export default function TipsPage() {
           </div>
         </div>
         <CommentBox pageId="plan-a-trip"/>
-        
+
       </div>
 
       <div
@@ -560,7 +559,7 @@ export default function TipsPage() {
           </div>
         </div>
         <CommentBox pageId="insurance"/>
-        
+
       </div>
 
       {/* Travel safety */}
@@ -679,9 +678,9 @@ export default function TipsPage() {
           </div>
         </div>
       <CommentBox pageId="one-step-ahead"/>
-        
+
       </div>
-      
+
     </>
   );
 }

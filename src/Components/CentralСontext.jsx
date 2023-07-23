@@ -39,8 +39,8 @@ function CentralContext() {
       <div className='est'>
         <section className='europEst'>
           <b>Eastern Europe</b> Eastern Europe generally refers to the countries that were behind the Iron Curtain. It’s made up of Belarus,
-            Bulgaria, Czech Republic, Hungary, Poland, Moldova, Romania, Russia, Slovakia, and Ukraine. It’s a cheaper destination for
-            budget travelers, and some of its top historical sites include the Prague Castle, the State Hermitage Museum and Word War II history.
+          Bulgaria, Czech Republic, Hungary, Poland, Moldova, Romania, Russia, Slovakia, and Ukraine. It’s a cheaper destination for
+          budget travelers, and some of its top historical sites include the Prague Castle, the State Hermitage Museum and Word War II history.
         </section>
         <section className='arrowEst'>
           <svg width="388" height="395" viewBox="0 0 388 395" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -136,10 +136,6 @@ function CentralContext() {
           <b>Western Europe</b> Western Europe is one of the most popular regions in Europe. It’s home to countries like Austria, France, Germany, Netherlands, and Switzerland that attract millions of visitors each year. Some of its most-traveled cities are Paris, Berlin, Vienna and Amsterdam!
         </section>
       </div>
-      {/* <footer className='footer'>
-        <img className='imgFooter' src='https://theblondeabroad.com/wp-content/uploads/2018/07/Footer-Manifesto.png'/>
-      </footer> */}
-      {/* <ReviewBar /> */}
     </div>
   );
 }

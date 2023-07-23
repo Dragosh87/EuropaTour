@@ -23,7 +23,7 @@ export default function Registration() {
     const [success, setSuccess] = useState(null);
     const [inProgress, setInProgress] = useState(null);
     const [setItem, getItem] = useContext(LocalContext);
-
+   
     const handleOpen = () => setOpen(!open);
 
     async function handleRegisterUser() {
