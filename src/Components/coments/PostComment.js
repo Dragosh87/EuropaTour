@@ -37,7 +37,7 @@ export default function PostComment({pageId, comments, onPostComment}) {
 
         <div className="max-w-2xl px-4 mx-auto">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg font-bold text-gray-900 lg:text-2xl dark:text-white">
+            <h2 className="text-lg font-bold text-gray-900 lg:text-2xl dark:text-white font-sans">
               {" "}
               Leave your comment
             </h2>
