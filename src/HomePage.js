@@ -7,9 +7,7 @@ import CentralContext from './Components/CentralСontext';
 import { Footer } from './Components/footer';
 import Title from "./Components/Title";
 import CommentBox from './Components/coments/CommentBox';
-
-
-
+import { ReviewBar } from './Components/barReview';
 
 function HomePage() {
   return (
@@ -24,9 +22,12 @@ function HomePage() {
           <Rightbar />
         </div>
 
-          <div className="w-full">
-              <CommentBox pageId="home-page"/>
-          </div>
+          {/*<div className="w-full">*/}
+          {/*    <CommentBox pageId="home-page"/>*/}
+          {/*</div>*/}
+        <div className='review'>
+          <ReviewBar />
+        </div>
         <div>
           <Footer />
         </div>
