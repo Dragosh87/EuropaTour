@@ -57,14 +57,16 @@ export default function PostComment({pageId, comments, onPostComment}) {
                 onChange={(e) => setContent(e.target.value)}
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-[#BF9270]  rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 "
-              onClick={handlePost}
-              disabled={inProgress}
-            >
-              Post comment
-            </button>
+              <div className="text-right">
+                  <button
+                      type="submit"
+                      className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-[#BF9270]  rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 "
+                      onClick={handlePost}
+                      disabled={inProgress}
+                  >
+                      Post comment
+                  </button>
+              </div>
           </div>
         </div>
      

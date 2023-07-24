@@ -29,7 +29,7 @@ export default function CommentBox({
     }, [pageId]);
 
     const available = (
-        <section className="max-w-2xl px-4 py-10 mx-auto">
+        <section className="max-w-2xl px-4 py-10 mx-auto text-left">
         {
             (getItem() && getItem().user)
                 ?
@@ -50,7 +50,7 @@ export default function CommentBox({
     )
 
     const notAvailable = (
-        <section className="max-w-2xl px-4 py-10 mx-auto">
+        <section className="max-w-2xl px-4 py-10 mx-auto text-left">
         {
             <div className='italic'>Comments not available (start the backend for comments)</div>
         }
