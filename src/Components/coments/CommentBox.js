@@ -16,7 +16,8 @@ export default function CommentBox({
     async function fetchComments(){
         try {
             const response = await fetch(`http://localhost:1337/api/comment-manager/comments/${pageId}`);
-            setComments(response.json().comments || {})
+            const respJson = await response.json()
+            setComments(respJson.comments || [])
             setAvailable(true)
         } catch (error) {
             setAvailable(false)
