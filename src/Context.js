@@ -11,7 +11,11 @@ export const LocalProvider = ({ children }) => {
     }
   };
   const getItem = () => {
-    return JSON.parse(window.localStorage.getItem("local")) || [];
+    if (window.localStorage.getItem("local")) {
+      return JSON.parse(window.localStorage.getItem("local")) || [];
+    } else {
+      return {}
+    }
   };
 
   return (
