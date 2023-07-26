@@ -49,6 +49,12 @@ export default function CountrySelector({
                     aria-labelledby="listbox-label"
                     onClick={onToggle}
                     disabled={disabled}
+                    style={{ 
+                        border: '2px solid #BF9270', 
+                        borderRadius: '10px', 
+                        backgroundColor: open ? 'white' : 'transparent',
+                        margin: "10px 0 10px 0", 
+                    }}
                 >
           <span className="truncate flex items-center">
             {selectedValue ? selectedValue.name : "Select a City in " + Country.getCountryByCode(country).name}

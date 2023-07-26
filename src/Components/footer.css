@@ -18,8 +18,12 @@
     justify-items: baseline;
     align-items: center;
     background-color: #f6ebe5;
+    border-top: 2px solid #BF9270;
+    
+    
 
 }
+
 
 .media {
     display: flex;

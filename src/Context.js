@@ -7,11 +7,15 @@ export const LocalProvider = ({ children }) => {
     if (item === null) {
       window.localStorage.removeItem("local")
     } else {
-      window.localStorage.setItem("local", JSON.stringify(item));
+      window.localStorage.setItem("local", JSON.stringify(item ? item : {}));
     }
   };
-  const getItem = (item) => {
-    return JSON.parse(window.localStorage.getItem("local")) || [];
+  const getItem = () => {
+    if (window.localStorage.getItem("local")) {
+      return JSON.parse(window.localStorage.getItem("local")) || [];
+    } else {
+      return {}
+    }
   };
 
   return (

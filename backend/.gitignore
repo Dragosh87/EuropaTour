@@ -110,5 +110,4 @@ dist
 build
 .strapi-updater.json
 
-src/extensions/documentation/documentation/1.0.0/full_documentation.json
-src/extensions/documentation/public/index.html
+backend/src/extensions/documentation/documentation/1.0.0/full_documentation.json

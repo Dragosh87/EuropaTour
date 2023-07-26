@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import TravelTip from "./Components/tips/TravelTip";
-import "./TipsPage.css";
+import Navbar from "../Navbar";
+import TravelTip from "./TravelTip";
 import { Fragment, useState } from "react";
+import CommentBox from "../coments/CommentBox";
 
 function showSection(sectionName) {
   document
@@ -487,16 +487,9 @@ export default function TipsPage() {
             </div>
           </div>
         </div>
-      </div>
+        <CommentBox pageId="plan-a-trip"/>
 
-      {/* divider */}
-      {/* <div className="relative">
-      <div className="absolute inset-0 flex items-center" aria-hidden="true">
-        <div className="w-full border-t border-gray-300" />
       </div>
-    </div> */}
-
-      {/* insurance */}
 
       <div
         id="insuranceSection"
@@ -565,6 +558,8 @@ export default function TipsPage() {
             </div>
           </div>
         </div>
+        <CommentBox pageId="insurance"/>
+
       </div>
 
       {/* Travel safety */}
@@ -654,6 +649,8 @@ export default function TipsPage() {
             access in case of any emergencies.
           </p>
         </div>
+        <CommentBox pageId="travel-safety"/>
+
       </div>
 
       {/* One step ahead */}
@@ -680,7 +677,10 @@ export default function TipsPage() {
             </div>
           </div>
         </div>
+      <CommentBox pageId="one-step-ahead"/>
+
       </div>
+
     </>
   );
 }

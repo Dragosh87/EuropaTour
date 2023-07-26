@@ -4,7 +4,7 @@ import UserMenu from './UserMenu'
 import {Link} from "react-router-dom";
 function Navbar() {
     return (
-        <nav className="relative flex items-center justify-between px-4 py-4 bg-white Navbar">
+        <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-2 py-2 bg-white Navbar">
             <div className="lg:hidden">
                 <button className="flex items-center p-3 text-blue-600 navbar-burger">
                     <svg className="block w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

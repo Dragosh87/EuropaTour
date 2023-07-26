@@ -17,7 +17,21 @@ function Leftbar() {
   );
 
   return (
-    <div className="Leftbar " style={{ flex: "0 0 20%" }}>
+    
+    <div className="Leftbar " style={{ flex: "0 0 20%",  }}>
+      
+      <div className="Leftfixed" style={{ position: "fixed", top: "7%", left: 0, bottom: "20%", width: "20%" }}>
+      <h3
+        className="text-2xl text-center mb-6"
+        style={{
+          border: "2px solid #BF9270", // Adaugă un border de 2px solid negru
+          margin: "10px", // Adaugă un margin de 10px
+          borderRadius: "10px",
+        }}
+      >
+        Embarking on a Journey? <br />
+        Discover the Time Zone and Weather in Your Destination
+      </h3>
       <CountryDropdown
         id={"country-selector"}
         open={countryIsOpen}
@@ -50,6 +64,9 @@ function Leftbar() {
           city={city.name}
         />
       )}
+     
+    </div>
+    
     </div>
   );
 }

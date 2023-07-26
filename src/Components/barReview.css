@@ -1,42 +1,43 @@
-textarea{
-    min-height: 100px;
-    min-width: 400px;
-    margin: 0;
-    font-family: fontText;
+textarea {
+  min-height: 100px;
+  min-width: 400px;
+  margin: 0;
+  font-family: fontText;
 }
 
-.container{
-    border-radius: 5px;
-    height: 120px;
-    width: 400px;
+.container {
+  border-radius: 5px;
+  height: 120px;
+  width: 400px;
 }
 
-.submit-button{
-    display: flex;
-    width: 30px;
-    height: 30px;
+.submit-button {
+  display: flex;
+  width: 30px;
+  height: 30px;
 
 }
 
 textarea:focus {
-    outline: none;
-  }
+  outline: none;
+}
 
-  .username {
-    outline: none;
-    border: 2px solid #BF9270;
-    width: 433px; ;
-    font-family: fontText;
-  }
+.username {
+  outline: none;
+  border: 2px solid #BF9270;
+  width: 433px;
+  ;
+  font-family: fontText;
+}
 
-  h2 {
-    font-family: fontText;
-    padding: 10px;
-    font-size: 30px;
-  }
+h2 {
+  font-family: fontText;
+  padding: 10px;
+  font-size: 30px;
+}
 
-  .comment {
-    display: inline-flex;
-    justify-content: center;
-    border: 2px solid #BF9270;
-  }
+.comment {
+  display: inline-flex;
+  justify-content: center;
+  border: 2px solid #BF9270;
+}
