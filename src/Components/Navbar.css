@@ -7,29 +7,16 @@
 
 .title_of_page {
   display: flex;
-
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .Navbar{
     background-color: #f6ebe5;
     text-align: center;
     width: 100%;
-=======
-.Navbar {
-  background-color: #f6ebe5;
-  text-align: center;
-  border-bottom: 2px solid #BF9270;
-
-
->>>>>>> 75c866640296dad411864de413a7ad6f5e2a6e0d
 }
-
-
-
 
 .item:hover,
 .item1:hover {

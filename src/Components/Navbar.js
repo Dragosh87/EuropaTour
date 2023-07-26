@@ -38,7 +38,7 @@ function Navbar() {
                         CONTACT</a>
                     <ul className="dropdown1">
                         <li className="dropdown_item1">Email: eurotravelguide2023@gmail.com</li>
-                        <li className="dropdown_item1">Contact: 0232 080 332</li>
+                        <li className="dropdown_item1">Contact: 0232 xxx xxx</li>
                     </ul>
                 </li>
             </ul>
