@@ -6,6 +6,7 @@ export const LocalProvider = ({ children }) => {
   const setItem = (item) => {
     if (item === null) {
       window.localStorage.removeItem("local")
+
     } else {
       window.localStorage.setItem("local", JSON.stringify(item ? item : {}));
     }
