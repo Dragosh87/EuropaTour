@@ -1,13 +1,13 @@
 .Rightbar {
   background-color: #fff;
  
-   position: fixed;
-   top: 7%;
+   /* position: fixed; */
+   /* top: 7%;
    right: 0;
    bottom: 10%;
    width: 20%; 
    padding: 2px; 
-   overflow-y: scroll; 
+   overflow-y: scroll;  */
    }
 
 

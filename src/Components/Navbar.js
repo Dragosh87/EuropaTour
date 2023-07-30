@@ -20,7 +20,7 @@ function Navbar() {
                     <ul className="z-50 dropdown">
                         <li className="dropdown_item"><Link to="/albania">Albania</Link></li>
                         <li className="dropdown_item"><Link to="/austria">Austria</Link></li>
-                        <li className="dropdown_item"><Link to='/czech'>Czech Republic</Link></li>
+                        <li className="dropdown_item"><Link to='/czech'>Czech Rep.</Link></li>
                         <li className="dropdown_item"><Link to='/france'>France</Link></li>
                         <li className="dropdown_item"><Link to='/greece'>Greece</Link></li>
                         <li className="dropdown_item"><Link to='/iceland'>Iceland</Link></li>

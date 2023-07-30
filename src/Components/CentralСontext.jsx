@@ -9,11 +9,14 @@ function CentralContext() {
         <ul className='paragraf'>
           <li>Everyone dreams of traveling to Europe and there is a reason for that.
             Whether you're taking your first solo trip, backpacking on a budget, looking for a stylish getaway, or want to
-            explore new cities and cultures, Europe has something for everyone.
+            explore new cities and cultures, Europe has something for everyone. 
+            
           </li>
           <li>
             Europe's peak tourist season is summer! From June to August, travelers from all over
-            People flock to the region to enjoy the sights with beautiful weather.
+            People flock to the region to enjoy the sights with beautiful weather. 
+            Moreover, Europe's diverse landscapes, iconic landmarks, and delectable cuisines
+             create an unforgettable experience that leaves travelers longing for more.
           </li>
         </ul>
       </section>

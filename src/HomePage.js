@@ -4,9 +4,10 @@ import Navbar from './Components/Navbar';
 import Leftbar from './Components/Leftbar';
 import Rightbar from './Components/Rightbar';
 import CentralContext from './Components/CentralСontext';
-import { ReviewBar } from './Components/barReview';
+// import { ReviewBar } from './Components/barReview';
 import { Footer } from './Components/footer';
 import Title from "./Components/Title";
+import CommentBox from "./Components/coments/CommentBox";
 
 function HomePage() {
   useEffect(() => {
@@ -31,11 +32,16 @@ function HomePage() {
           <Rightbar />
         </div>
 
-        <div className='review'>
+        {/* <div className='review'>
           <ReviewBar />
-        </div>
+        </div> */}
+
         <div>
-          <Footer />
+          <CommentBox pageId="central-context" />
+
+          <div>
+            <Footer />
+          </div>
         </div>
       </div>
     </>
