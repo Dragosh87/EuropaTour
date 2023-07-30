@@ -16,7 +16,7 @@ function CentralContext() {
             Europe's peak tourist season is summer! From June to August, travelers from all over
             People flock to the region to enjoy the sights with beautiful weather. 
             Moreover, Europe's diverse landscapes, iconic landmarks, and delectable cuisines
-             create an unforgettable experience that leaves travelers longing for more.
+            create an unforgettable experience that leaves travelers longing for more.
           </li>
         </ul>
       </section>

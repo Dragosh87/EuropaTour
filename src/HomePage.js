@@ -31,11 +31,9 @@ function HomePage() {
           <CentralContext />
           <Rightbar />
         </div>
-
         {/* <div className='review'>
           <ReviewBar />
         </div> */}
-
         <div>
           <CommentBox pageId="central-context" />
 

@@ -20,7 +20,7 @@ function Leftbar() {
     
     <div className="Leftbar " style={{ flex: "0 0 20%",  }}>
       
-      {/* <div className="Leftfixed" style={{ position: "fixed", top: "7%", left: 0, bottom: "20%", width: "20%" }}> */}
+       {/* <div className="Leftfixed" style={{ position: "fixed", top: "7%", left: 0, bottom: "20%", width: "20%" }}> */}
       <h3
         className="text-2xl text-center mb-6"
         style={{
