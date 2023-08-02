@@ -1,6 +1,7 @@
 
 import React, {useContext, useState} from "react";
 import {LocalContext} from '../../Context'
+import "./PostButtom.css";
 
 export default function PostComment({pageId, comments, onPostComment}) {
   const [content, setContent] = useState("");
@@ -44,7 +45,7 @@ export default function PostComment({pageId, comments, onPostComment}) {
           </div>
           <div className="mb-6">
             <div className="px-4 py-2 mb-4 bg-white border border-gray-500 rounded-lg rounded-t-lg dark:bg-gray-800 dark:border-gray-700">
-              <label for="comment" className="sr-only">
+              <label htmlfor="comment" className="sr-only">
                 Your comment
               </label>
               <textarea
@@ -57,15 +58,15 @@ export default function PostComment({pageId, comments, onPostComment}) {
                 onChange={(e) => setContent(e.target.value)}
               ></textarea>
             </div>
-              <div className="text-right">
-                  <button
-                      type="submit"
-                      className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-[#BF9270]  rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 "
-                      onClick={handlePost}
-                      disabled={inProgress}
-                  >
-                      Post comment
-                  </button>
+              <div className="textright">
+              <button
+  type="submit"
+  className="my-custom-button "
+  onClick={handlePost}
+  disabled={inProgress}
+>
+  {inProgress ? "Posting..." : "Post comment"}
+</button>
               </div>
           </div>
         </div>
