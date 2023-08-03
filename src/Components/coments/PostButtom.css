@@ -1,0 +1,28 @@
+.my-custom-button {
+    display: inline-flex;
+    justify-content: center;
+    color: white;
+    padding: 0.5rem 1rem; 
+    font-size: 0.875rem; 
+    font-weight: 500; 
+    text-align: center;
+    background-color: #BF9270; 
+    border-radius: 0.25rem; 
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25); /* shadow-sm la Tailwind */
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .my-custom-button:hover {
+    background-color: #8b6c4a; /* Darker shade of #BF9270 */
+  }
+  
+ 
+  
+  .my-custom-button.dark {
+    background-color: #BF9270; /* bg-[#BF9270] la Tailwind */
+  }
+  
+  
+  
